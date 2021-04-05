@@ -1,0 +1,2244 @@
+0.9067 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+26.8025 	INFO 	Loaded monitor calibration from ['2021_01_25 12:49']
+27.5306 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fbc4b60fa90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fbc500394a8>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+27.5309 	EXP 	window1: mouseVisible = True
+27.5309 	EXP 	window1: recordFrameIntervals = False
+27.6972 	EXP 	window1: recordFrameIntervals = True
+27.8803 	DEBUG 	Screen (0) actual frame rate measured at 59.87
+27.8804 	EXP 	window1: recordFrameIntervals = False
+28.2868 	EXP 	Created explain = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='explain', opacity=1.0, ori=0, pos=array([0.  , 0.15]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+28.2876 	EXP 	Created participantcode = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='participantcode', opacity=1.0, ori=0, pos=array([ 0.  , -0.35]), rgb=array([255.,   0.,   0.]), text='', units='height', win=Window(...), wrapWidth=1)
+28.5136 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+28.7259 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.45, -0.42]), rgb=array([255.,   0.,   0.]), text='Press return to continue', units='height', win=Window(...), wrapWidth=1)
+28.7295 	EXP 	Created practiceinstruct = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practiceinstruct', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+28.9399 	EXP 	Created return_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='return_2', opacity=1.0, ori=0, pos=array([ 0.45, -0.42]), rgb=array([255.,   0.,   0.]), text='Press return to continue', units='height', win=Window(...), wrapWidth=1)
+28.9404 	EXP 	Created input_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='input_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+29.1507 	EXP 	Created hcountprac = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='hcountprac', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+29.1563 	EXP 	Created displayhcount = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='displayhcount', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=array([0., 0., 0.]), text='Hostage Count:', units='height', win=Window(...), wrapWidth=1)
+29.1573 	EXP 	Created text_border = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-5.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='text_border', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.9, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+29.2005 	EXP 	Created hostage_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='hostage1.png', interpolate=True, mask=None, maskParams=None, name='hostage_4', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+29.3821 	EXP 	Sound sound_4 set volume 1.000
+29.4000 	EXP 	Created releasenotify = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='releasenotify', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([0., 0., 0.]), text='A hostage has been released!', units='height', win=Window(...), wrapWidth=1)
+29.4243 	EXP 	Created text_14 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_14', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+29.6394 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+29.6420 	EXP 	Created sentence_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sentence_3', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+29.6443 	EXP 	Created choice1_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice1_3', opacity=1.0, ori=0, pos=array([-0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+29.6463 	EXP 	Created choice2_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2_3', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+29.9042 	EXP 	Created VATkeys = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='VATkeys', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255.,   0.,   0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+29.9076 	EXP 	Created textinstruct = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textinstruct', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.1270 	EXP 	Created return_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='return_3', opacity=1.0, ori=0, pos=array([ 0.45, -0.42]), rgb=array([255.,   0.,   0.]), text='Press return to continue', units='height', win=Window(...), wrapWidth=1)
+30.1275 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+30.3340 	EXP 	Created actualcount1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='actualcount1', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.3363 	EXP 	Created displayhcount_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='displayhcount_7', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=array([0., 0., 0.]), text='Hostage Count:', units='height', win=Window(...), wrapWidth=1)
+30.3599 	EXP 	Created alien = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='aliens1.png', interpolate=True, mask=None, maskParams=None, name='alien', opacity=1.0, ori=0.0, pos=array([-0.6,  0.4]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+30.3614 	EXP 	Created border_text_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-6.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='border_text_4', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.9, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+30.3667 	EXP 	Created countdowntimer_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='countdowntimer_4', opacity=1.0, ori=0, pos=array([-0.5, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.3703 	EXP 	Created hostage_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='hostage1.png', interpolate=True, mask=None, maskParams=None, name='hostage_4', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+30.3719 	EXP 	Sound sound_4 set volume 1.000
+30.3748 	EXP 	Created releasenotify = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='releasenotify', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([0., 0., 0.]), text='A hostage has been released!', units='height', win=Window(...), wrapWidth=1)
+30.3952 	EXP 	Created instructions_choice1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_choice1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+30.5993 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+30.6019 	EXP 	Created sentence = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sentence', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.6040 	EXP 	Created choice1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice1', opacity=1.0, ori=0, pos=array([-0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.6060 	EXP 	Created choice2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+30.6143 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='aliens1.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-0.6,  0.4]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+30.8337 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+30.8361 	EXP 	Created breaktimer = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='breaktimer', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.0625 	EXP 	Created instructions_round2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_round2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+31.2667 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+31.4822 	EXP 	Created green_alien_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='aliens2.png', interpolate=True, mask=None, maskParams=None, name='green_alien_3', opacity=1.0, ori=0.0, pos=array([-0.6,  0.4]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+31.4847 	EXP 	Created showtimer_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='showtimer_5', opacity=1.0, ori=0, pos=array([-0.5, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.4871 	EXP 	Created actualhcount_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='actualhcount_3', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.4893 	EXP 	Created displayhcount_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='displayhcount_6', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=array([0., 0., 0.]), text='Hostage Count:', units='height', win=Window(...), wrapWidth=1)
+31.4903 	EXP 	Created textborder_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-7.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='textborder_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.9, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+31.4933 	EXP 	Created hostage_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='hostage1.png', interpolate=True, mask=None, maskParams=None, name='hostage_4', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+31.4956 	EXP 	Sound sound_4 set volume 1.000
+31.4986 	EXP 	Created releasenotify = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='releasenotify', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([0., 0., 0.]), text='A hostage has been released!', units='height', win=Window(...), wrapWidth=1)
+31.5135 	EXP 	Created choice2instructtext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2instructtext', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+31.7176 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+31.7198 	EXP 	Created sentence_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sentence_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.7219 	EXP 	Created choice1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice1_2', opacity=1.0, ori=0, pos=array([-0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.7245 	EXP 	Created choice2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2_2', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+31.7322 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='aliens2.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0.5 , 0.35]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+31.9532 	EXP 	Created endexperiment = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='endexperiment', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+31.9712 	EXP 	participantcode: text = ''
+31.9712 	EXP 	explain: autoDraw = True
+31.9712 	EXP 	participantcode: autoDraw = True
+34.4513 	DATA 	Keypress: return
+34.4724 	DEBUG 	Read Excel file with pandas: instructions.xlsx
+34.4744 	DEBUG 	Clearing unnamed columns from instructions.xlsx
+34.4750 	EXP 	Imported instructions.xlsx as conditions, 19 conditions, 1 params
+34.4752 	EXP 	Created sequence: sequential, trialTypes=19, nReps=1, seed=None
+34.4755 	EXP 	New trial (rep=0, index=0): OrderedDict([('instructionsloop', 'ADULT  RESEARCH  PARTICIPANT  INFORMED  CONSENT  FORM ')])
+34.4945 	EXP 	participantcode: text = 'return'
+34.4945 	EXP 	explain: autoDraw = False
+34.4945 	EXP 	participantcode: autoDraw = False
+34.4945 	EXP 	instructions_text: text = 'ADULT  RESEARCH  PARTICIPANT  INFORMED  CONSENT  FORM '
+34.4945 	EXP 	instructions_text: autoDraw = True
+34.4945 	EXP 	text_2: autoDraw = True
+34.8306 	EXP 	New trial (rep=0, index=1): OrderedDict([('instructionsloop', 'Brief Description: The purpose of this research is to perform an experimental analysis of typed communication. Individuals who volunteer to participate in this study will play a fictional game on their computers in which they attempt to free hostages from fictional aliens by performing an ongoing typing task. We require that any participant be at least 18 years of age to participate.')])
+34.8509 	DATA 	Keypress: return
+34.8624 	EXP 	instructions_text: autoDraw = False
+34.8624 	EXP 	text_2: autoDraw = False
+34.8624 	EXP 	instructions_text: text = 'Brief Description: The purpose of this research is to perform an experimental analysis of typed communication. Individuals who volunteer to participate in this study will play a fictional game on their computers in which they attempt to free hostages from fictional aliens by performing an ongoing typing task. We require that any participant be at least 18 years of age to participate.'
+34.8624 	EXP 	instructions_text: autoDraw = True
+34.8624 	EXP 	text_2: autoDraw = True
+34.9805 	EXP 	New trial (rep=0, index=2): OrderedDict([('instructionsloop', 'Please read the remainder of this form before deciding if you want to volunteer to be in this research study.')])
+34.9930 	DATA 	Keypress: return
+35.0008 	EXP 	instructions_text: autoDraw = False
+35.0008 	EXP 	text_2: autoDraw = False
+35.0008 	EXP 	instructions_text: text = 'Please read the remainder of this form before deciding if you want to volunteer to be in this research study.'
+35.0008 	EXP 	instructions_text: autoDraw = True
+35.0008 	EXP 	text_2: autoDraw = True
+35.1134 	EXP 	New trial (rep=0, index=3): OrderedDict([('instructionsloop', 'Our names are Hannah J. Checkeye, Kathleen E. Daley, Angeline S. Gnanasekaren, Jenna M. Holland, and Kaitlyn R. Ownbey; we are undergraduate psychology researchers at the University of Mary Washington studying under Dr. W. David Stahlman. We are seeking your consent to participate in this research study. Involvement in the study is voluntary, so you may choose to participate or not. The information below explains the study in detail. ')])
+35.1361 	DATA 	Keypress: return
+35.1452 	EXP 	instructions_text: autoDraw = False
+35.1452 	EXP 	text_2: autoDraw = False
+35.1452 	EXP 	instructions_text: text = 'Our names are Hannah J. Checkeye, Kathleen E. Daley, Angeline S. Gnanasekaren, Jenna M. Holland, and Kaitlyn R. Ownbey; we are undergraduate psychology researchers at the University of Mary Washington studying under Dr. W. David Stahlman. We are seeking your consent to participate in this research study. Involvement in the study is voluntary, so you may choose to participate or not. The information below explains the study in detail. '
+35.1452 	EXP 	instructions_text: autoDraw = True
+35.1452 	EXP 	text_2: autoDraw = True
+35.2476 	EXP 	New trial (rep=0, index=4): OrderedDict([('instructionsloop', 'Details of Participant Involvement: We are interested in learning more about typed communication. If you agree to participate, you will be asked to complete demographic questions, a typing game, choice tasks, and a post-game survey.')])
+35.2628 	DATA 	Keypress: return
+35.2711 	EXP 	instructions_text: autoDraw = False
+35.2711 	EXP 	text_2: autoDraw = False
+35.2711 	EXP 	instructions_text: text = 'Details of Participant Involvement: We are interested in learning more about typed communication. If you agree to participate, you will be asked to complete demographic questions, a typing game, choice tasks, and a post-game survey.'
+35.2711 	EXP 	instructions_text: autoDraw = True
+35.2711 	EXP 	text_2: autoDraw = True
+35.3810 	EXP 	New trial (rep=0, index=5): OrderedDict([('instructionsloop', 'The typing game will consist of two nonconsecutive 10-minute strings of writing. Upon completion of each writing session of the game, you will be asked to perform a choice task. This study will take approximately thirty minutes to complete. If you do participate, a benefit of this study is that you will contribute towards the scientific community’s understanding of verbal behavior. ')])
+35.4009 	DATA 	Keypress: return
+35.4119 	EXP 	instructions_text: autoDraw = False
+35.4119 	EXP 	text_2: autoDraw = False
+35.4119 	EXP 	instructions_text: text = 'The typing game will consist of two nonconsecutive 10-minute strings of writing. Upon completion of each writing session of the game, you will be asked to perform a choice task. This study will take approximately thirty minutes to complete. If you do participate, a benefit of this study is that you will contribute towards the scientific community’s understanding of verbal behavior. '
+35.4119 	EXP 	instructions_text: autoDraw = True
+35.4119 	EXP 	text_2: autoDraw = True
+35.5308 	EXP 	New trial (rep=0, index=6): OrderedDict([('instructionsloop', 'Privacy and Confidentiality: You can complete this survey at any time and in any location you feel comfortable. All information about participants will be kept anonymous. We are not collecting names, any identifying information, or IP addresses. A single copy of your data will be stored on Dr. Stahlman’s password protected computer. All other copies will be deleted.')])
+35.5482 	DATA 	Keypress: return
+35.5579 	EXP 	instructions_text: autoDraw = False
+35.5579 	EXP 	text_2: autoDraw = False
+35.5579 	EXP 	instructions_text: text = 'Privacy and Confidentiality: You can complete this survey at any time and in any location you feel comfortable. All information about participants will be kept anonymous. We are not collecting names, any identifying information, or IP addresses. A single copy of your data will be stored on Dr. Stahlman’s password protected computer. All other copies will be deleted.'
+35.5579 	EXP 	instructions_text: autoDraw = True
+35.5579 	EXP 	text_2: autoDraw = True
+35.6975 	EXP 	New trial (rep=0, index=7): OrderedDict([('instructionsloop', 'Risks and Benefits of Participation: The risks to participants in this study may include mild fatigue, discomfort from typing, and eye strain. The game’s narrative includes brief descriptions of alien abduction and a hostage scenario, so if either of these topics is personally upsetting to you please consider declining to participate. ')])
+35.7139 	DATA 	Keypress: return
+35.7234 	EXP 	instructions_text: autoDraw = False
+35.7234 	EXP 	text_2: autoDraw = False
+35.7234 	EXP 	instructions_text: text = 'Risks and Benefits of Participation: The risks to participants in this study may include mild fatigue, discomfort from typing, and eye strain. The game’s narrative includes brief descriptions of alien abduction and a hostage scenario, so if either of these topics is personally upsetting to you please consider declining to participate. '
+35.7234 	EXP 	instructions_text: autoDraw = True
+35.7234 	EXP 	text_2: autoDraw = True
+35.8641 	EXP 	New trial (rep=0, index=8): OrderedDict([('instructionsloop', 'These risks will be minimized by our experiment functioning like a game—the scenario depicted is highly improbable, even cartoonish, and the gameplay is mild. As a result, participants will hopefully find the tasks in the experiment enjoyable and engaging. To minimize typing discomfort, intermittent association tasks will be used to provide a short break from the typing tasks in the experiment. ')])
+35.8860 	DATA 	Keypress: return
+35.8969 	EXP 	instructions_text: autoDraw = False
+35.8969 	EXP 	text_2: autoDraw = False
+35.8969 	EXP 	instructions_text: text = 'These risks will be minimized by our experiment functioning like a game—the scenario depicted is highly improbable, even cartoonish, and the gameplay is mild. As a result, participants will hopefully find the tasks in the experiment enjoyable and engaging. To minimize typing discomfort, intermittent association tasks will be used to provide a short break from the typing tasks in the experiment. '
+35.8969 	EXP 	instructions_text: autoDraw = True
+35.8969 	EXP 	text_2: autoDraw = True
+36.0139 	EXP 	New trial (rep=0, index=9): OrderedDict([('instructionsloop', 'Additionally, participants may leave the experiment at any time. Participation in this study will invoke indirect benefits, specifically for the scientific community at large. The participant results from this study will ensure a better understanding of verbal behavior.')])
+36.0297 	DATA 	Keypress: return
+36.0385 	EXP 	instructions_text: autoDraw = False
+36.0385 	EXP 	text_2: autoDraw = False
+36.0385 	EXP 	instructions_text: text = 'Additionally, participants may leave the experiment at any time. Participation in this study will invoke indirect benefits, specifically for the scientific community at large. The participant results from this study will ensure a better understanding of verbal behavior.'
+36.0385 	EXP 	instructions_text: autoDraw = True
+36.0385 	EXP 	text_2: autoDraw = True
+36.1644 	EXP 	New trial (rep=0, index=10): OrderedDict([('instructionsloop', 'Participant Rights: If you do not want to be in this study, there will be no penalties or loss of benefits to which you are entitled. If you volunteer to be in this study and later change your mind, you have the right to withdraw your data.')])
+36.1780 	DATA 	Keypress: return
+36.1861 	EXP 	instructions_text: autoDraw = False
+36.1861 	EXP 	text_2: autoDraw = False
+36.1861 	EXP 	instructions_text: text = 'Participant Rights: If you do not want to be in this study, there will be no penalties or loss of benefits to which you are entitled. If you volunteer to be in this study and later change your mind, you have the right to withdraw your data.'
+36.1861 	EXP 	instructions_text: autoDraw = True
+36.1861 	EXP 	text_2: autoDraw = True
+36.3304 	EXP 	New trial (rep=0, index=11): OrderedDict([('instructionsloop', 'Choosing to leave the study before its completion will imply withdrawal. If you complete the study and decide that you wish to withdrawal, you may indicate this on debriefing form. In both scenarios, your data will be discarded. As data collection is anonymous, this will be your only opportunity to withdraw your data.')])
+36.3467 	DATA 	Keypress: return
+36.3562 	EXP 	instructions_text: autoDraw = False
+36.3562 	EXP 	text_2: autoDraw = False
+36.3562 	EXP 	instructions_text: text = 'Choosing to leave the study before its completion will imply withdrawal. If you complete the study and decide that you wish to withdrawal, you may indicate this on debriefing form. In both scenarios, your data will be discarded. As data collection is anonymous, this will be your only opportunity to withdraw your data.'
+36.3562 	EXP 	instructions_text: autoDraw = True
+36.3562 	EXP 	text_2: autoDraw = True
+36.6805 	EXP 	New trial (rep=0, index=12): OrderedDict([('instructionsloop', 'As a voluntary participant in this research, you have the right to refuse to perform any activities and answer any questions that we ask of you. This research has been approved by the University of Mary Washington Institutional Review Board, a committee responsible for ensuring that the safety and rights of research participants are protected. ')])
+36.6982 	DATA 	Keypress: return
+36.7067 	EXP 	instructions_text: autoDraw = False
+36.7067 	EXP 	text_2: autoDraw = False
+36.7067 	EXP 	instructions_text: text = 'As a voluntary participant in this research, you have the right to refuse to perform any activities and answer any questions that we ask of you. This research has been approved by the University of Mary Washington Institutional Review Board, a committee responsible for ensuring that the safety and rights of research participants are protected. '
+36.7067 	EXP 	instructions_text: autoDraw = True
+36.7067 	EXP 	text_2: autoDraw = True
+36.8630 	EXP 	New trial (rep=0, index=13): OrderedDict([('instructionsloop', 'For information about your rights as a research participant, contact the IRB chair, Dr. Rosalyn Cooperman (rcooperm@umw.edu). For more information about this research before, during or after your participation, please contact Jenna M. Holland (jholland@mail.umw.edu). To report any unanticipated problems relating to the research that you experience during or following your participation, contact my university supervisor, Dr. W. David Stahlman (wdstahlm@umw.edu). We will provide this information again at debriefing.')])
+36.8906 	DATA 	Keypress: return
+36.9007 	EXP 	instructions_text: autoDraw = False
+36.9007 	EXP 	text_2: autoDraw = False
+36.9007 	EXP 	instructions_text: text = 'For information about your rights as a research participant, contact the IRB chair, Dr. Rosalyn Cooperman (rcooperm@umw.edu). For more information about this research before, during or after your participation, please contact Jenna M. Holland (jholland@mail.umw.edu). To report any unanticipated problems relating to the research that you experience during or following your participation, contact my university supervisor, Dr. W. David Stahlman (wdstahlm@umw.edu). We will provide this information again at debriefing.'
+36.9007 	EXP 	instructions_text: autoDraw = True
+36.9007 	EXP 	text_2: autoDraw = True
+37.0312 	EXP 	New trial (rep=0, index=14): OrderedDict([('instructionsloop', 'Consent: By advancing to the next page of the study, you are agreeing that you have read all of the information on this page, and all of your questions and concerns about the research described above have been addressed. You also certify that you choose, voluntarily, to participate in this research project. You also are certifying that you are at least 18 years of age.')])
+37.0500 	DATA 	Keypress: return
+37.0613 	EXP 	instructions_text: autoDraw = False
+37.0613 	EXP 	text_2: autoDraw = False
+37.0613 	EXP 	instructions_text: text = 'Consent: By advancing to the next page of the study, you are agreeing that you have read all of the information on this page, and all of your questions and concerns about the research described above have been addressed. You also certify that you choose, voluntarily, to participate in this research project. You also are certifying that you are at least 18 years of age.'
+37.0613 	EXP 	instructions_text: autoDraw = True
+37.0613 	EXP 	text_2: autoDraw = True
+37.2149 	EXP 	New trial (rep=0, index=15): OrderedDict([('instructionsloop', 'BEGIN EXPERIMENT')])
+37.2229 	DATA 	Keypress: return
+37.2325 	EXP 	instructions_text: autoDraw = False
+37.2325 	EXP 	text_2: autoDraw = False
+37.2325 	EXP 	instructions_text: text = 'BEGIN EXPERIMENT'
+37.2325 	EXP 	instructions_text: autoDraw = True
+37.2325 	EXP 	text_2: autoDraw = True
+37.3639 	EXP 	New trial (rep=0, index=16): OrderedDict([('instructionsloop', 'ATTENTION: The first ever case of alien abduction has been verified in the United States. Two alien species, the Qiczox and Kivix, have come down from planet Nunus, and they have taken several humans around the country as hostages.\xa0 We are counting on you to release the hostages.\xa0')])
+37.3811 	DATA 	Keypress: return
+37.3896 	EXP 	instructions_text: autoDraw = False
+37.3896 	EXP 	text_2: autoDraw = False
+37.3896 	EXP 	instructions_text: text = 'ATTENTION: The first ever case of alien abduction has been verified in the United States. Two alien species, the Qiczox and Kivix, have come down from planet Nunus, and they have taken several humans around the country as hostages.\xa0 We are counting on you to release the hostages.\xa0'
+37.3896 	EXP 	instructions_text: autoDraw = True
+37.3896 	EXP 	text_2: autoDraw = True
+37.6310 	EXP 	New trial (rep=0, index=17): OrderedDict([('instructionsloop', 'NASA has appointed you as the United States Interstellar Messenger and Decoder. With this job title, you must communicate with the Qiczox and Kivix commanders in order to release the hostages. You will need to quickly and continuously type messages to the commanders. When you decide a message is complete, hit the return key to send it, and continue on with your next message. Remember: you cannot expect Qiczox and Kivix to think like you do.\xa0\xa0')])
+37.6518 	DATA 	Keypress: return
+37.6631 	EXP 	instructions_text: autoDraw = False
+37.6631 	EXP 	text_2: autoDraw = False
+37.6631 	EXP 	instructions_text: text = 'NASA has appointed you as the United States Interstellar Messenger and Decoder. With this job title, you must communicate with the Qiczox and Kivix commanders in order to release the hostages. You will need to quickly and continuously type messages to the commanders. When you decide a message is complete, hit the return key to send it, and continue on with your next message. Remember: you cannot expect Qiczox and Kivix to think like you do.\xa0\xa0'
+37.6631 	EXP 	instructions_text: autoDraw = True
+37.6631 	EXP 	text_2: autoDraw = True
+37.7973 	EXP 	New trial (rep=0, index=18): OrderedDict([('instructionsloop', 'You should use a computer or tablet with a keyboard to complete this task. When you are ready to begin your mission, press the return key. Good luck.\xa0')])
+37.8084 	DATA 	Keypress: return
+37.8167 	EXP 	instructions_text: autoDraw = False
+37.8167 	EXP 	text_2: autoDraw = False
+37.8167 	EXP 	instructions_text: text = 'You should use a computer or tablet with a keyboard to complete this task. When you are ready to begin your mission, press the return key. Good luck.\xa0'
+37.8167 	EXP 	instructions_text: autoDraw = True
+37.8167 	EXP 	text_2: autoDraw = True
+37.9545 	DEBUG 	Read Excel file with pandas: instructions_practiceround.xlsx
+37.9558 	DEBUG 	Clearing unnamed columns from instructions_practiceround.xlsx
+37.9560 	EXP 	Imported instructions_practiceround.xlsx as conditions, 3 conditions, 1 params
+37.9563 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+37.9566 	EXP 	New trial (rep=0, index=0): OrderedDict([('practice_instructions', 'PRACTICE ROUND')])
+37.9623 	DATA 	Keypress: return
+37.9713 	EXP 	instructions_text: autoDraw = False
+37.9713 	EXP 	text_2: autoDraw = False
+37.9713 	EXP 	practiceinstruct: text = 'PRACTICE ROUND'
+37.9713 	EXP 	practiceinstruct: autoDraw = True
+37.9713 	EXP 	return_2: autoDraw = True
+38.0982 	EXP 	New trial (rep=0, index=1): OrderedDict([('practice_instructions', 'To make sure you are able to maintain continuous communication with the alien commanders, we have arranged a practice communication task with one of our communication officers. This officer will mimic the communication of the alien species. You will need to communicate continuously with the officer by typing on your keyboard. They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. ')])
+38.1245 	DATA 	Keypress: return
+38.1343 	EXP 	practiceinstruct: autoDraw = False
+38.1343 	EXP 	return_2: autoDraw = False
+38.1343 	EXP 	practiceinstruct: text = 'To make sure you are able to maintain continuous communication with the alien commanders, we have arranged a practice communication task with one of our communication officers. This officer will mimic the communication of the alien species. You will need to communicate continuously with the officer by typing on your keyboard. They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. '
+38.1343 	EXP 	practiceinstruct: autoDraw = True
+38.1343 	EXP 	return_2: autoDraw = True
+38.2481 	EXP 	New trial (rep=0, index=2): OrderedDict([('practice_instructions', 'Once you decide that your message is complete, hit the return key to begin a new message. While you are communicating with the officer, a sample fragmented message will be sent to you. You must decode that message, and continue communicating. To decode the message, choose which word best completes the phrase in the middle of the screen. The message will only be visible for a few seconds, so work quickly. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. When you are ready to begin alien communication, press the return key')])
+38.2763 	DATA 	Keypress: return
+38.2870 	EXP 	practiceinstruct: autoDraw = False
+38.2870 	EXP 	return_2: autoDraw = False
+38.2870 	EXP 	practiceinstruct: text = 'Once you decide that your message is complete, hit the return key to begin a new message. While you are communicating with the officer, a sample fragmented message will be sent to you. You must decode that message, and continue communicating. To decode the message, choose which word best completes the phrase in the middle of the screen. The message will only be visible for a few seconds, so work quickly. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. When you are ready to begin alien communication, press the return key'
+38.2870 	EXP 	practiceinstruct: autoDraw = True
+38.2870 	EXP 	return_2: autoDraw = True
+38.3980 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+38.3983 	EXP 	New trial (rep=0, index=0): None
+38.4009 	DATA 	Keypress: return
+38.4175 	EXP 	practiceinstruct: autoDraw = False
+38.4175 	EXP 	return_2: autoDraw = False
+38.4175 	EXP 	hcountprac: text = 0
+38.4175 	EXP 	input_text: text = ''
+38.4175 	EXP 	input_text: autoDraw = True
+38.4175 	EXP 	hcountprac: autoDraw = True
+38.4175 	EXP 	displayhcount: autoDraw = True
+38.4175 	EXP 	text_border: autoDraw = True
+38.5312 	DATA 	Keypress: return
+38.5334 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+38.5336 	EXP 	New trial (rep=1, index=0): None
+38.5478 	EXP 	input_text: autoDraw = False
+38.5478 	EXP 	hcountprac: autoDraw = False
+38.5478 	EXP 	displayhcount: autoDraw = False
+38.5478 	EXP 	text_border: autoDraw = False
+38.5478 	EXP 	hcountprac: text = 0
+38.5478 	EXP 	input_text: text = ''
+38.5478 	EXP 	input_text: autoDraw = True
+38.5478 	EXP 	hcountprac: autoDraw = True
+38.5478 	EXP 	displayhcount: autoDraw = True
+38.5478 	EXP 	text_border: autoDraw = True
+38.6810 	DATA 	Keypress: return
+38.6826 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+38.6828 	EXP 	New trial (rep=2, index=0): None
+38.6972 	EXP 	input_text: autoDraw = False
+38.6972 	EXP 	hcountprac: autoDraw = False
+38.6972 	EXP 	displayhcount: autoDraw = False
+38.6972 	EXP 	text_border: autoDraw = False
+38.6972 	EXP 	hcountprac: text = 0
+38.6972 	EXP 	input_text: text = ''
+38.6972 	EXP 	input_text: autoDraw = True
+38.6972 	EXP 	hcountprac: autoDraw = True
+38.6972 	EXP 	displayhcount: autoDraw = True
+38.6972 	EXP 	text_border: autoDraw = True
+38.8314 	DATA 	Keypress: return
+38.8335 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+38.8338 	EXP 	New trial (rep=3, index=0): None
+38.8486 	EXP 	input_text: autoDraw = False
+38.8486 	EXP 	hcountprac: autoDraw = False
+38.8486 	EXP 	displayhcount: autoDraw = False
+38.8486 	EXP 	text_border: autoDraw = False
+38.8486 	EXP 	hcountprac: text = 0
+38.8486 	EXP 	input_text: text = ''
+38.8486 	EXP 	input_text: autoDraw = True
+38.8486 	EXP 	hcountprac: autoDraw = True
+38.8486 	EXP 	displayhcount: autoDraw = True
+38.8486 	EXP 	text_border: autoDraw = True
+38.9979 	DATA 	Keypress: return
+38.9998 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+39.0135 	EXP 	input_text: autoDraw = False
+39.0135 	EXP 	hcountprac: autoDraw = False
+39.0135 	EXP 	displayhcount: autoDraw = False
+39.0135 	EXP 	text_border: autoDraw = False
+39.0135 	EXP 	text_14: autoDraw = True
+39.1376 	DEBUG 	Read Excel file with pandas: practicevat.xlsx
+39.1388 	DEBUG 	Clearing unnamed columns from practicevat.xlsx
+39.1392 	EXP 	Imported practicevat.xlsx as conditions, 4 conditions, 3 params
+39.1395 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+39.1400 	EXP 	New trial (rep=0, index=0): OrderedDict([('sentences', 'Birds run ____ fault'), ('choice_a', 'green'), ('choice_b', 'disgusting')])
+39.1423 	DATA 	Keypress: return
+39.1520 	EXP 	text_14: autoDraw = False
+39.1520 	EXP 	text_3: autoDraw = True
+39.6531 	EXP 	text_3: autoDraw = False
+39.6531 	EXP 	sentence_3: text = 'Birds run ____ fault'
+39.6531 	EXP 	choice1_3: text = 'green'
+39.6531 	EXP 	choice2_3: text = 'disgusting'
+39.6531 	EXP 	sentence_3: autoDraw = True
+39.6531 	EXP 	choice1_3: autoDraw = True
+39.6531 	EXP 	choice2_3: autoDraw = True
+39.6531 	EXP 	VATkeys: autoDraw = True
+39.9155 	EXP 	New trial (rep=0, index=1): OrderedDict([('sentences', 'Stars blow meet ____'), ('choice_a', 'castle'), ('choice_b', 'field')])
+39.9513 	DATA 	Keypress: left
+39.9601 	EXP 	sentence_3: autoDraw = False
+39.9601 	EXP 	choice1_3: autoDraw = False
+39.9601 	EXP 	choice2_3: autoDraw = False
+39.9601 	EXP 	VATkeys: autoDraw = False
+39.9601 	EXP 	text_3: autoDraw = True
+40.4502 	EXP 	text_3: autoDraw = False
+40.4502 	EXP 	sentence_3: text = 'Stars blow meet ____'
+40.4502 	EXP 	choice1_3: text = 'castle'
+40.4502 	EXP 	choice2_3: text = 'field'
+40.4502 	EXP 	sentence_3: autoDraw = True
+40.4502 	EXP 	choice1_3: autoDraw = True
+40.4502 	EXP 	choice2_3: autoDraw = True
+40.4502 	EXP 	VATkeys: autoDraw = True
+40.5003 	EXP 	New trial (rep=0, index=2): OrderedDict([('sentences', '_____ school come pole'), ('choice_a', 'kick'), ('choice_b', 'water')])
+40.5017 	DATA 	Keypress: left
+40.5148 	EXP 	sentence_3: autoDraw = False
+40.5148 	EXP 	choice1_3: autoDraw = False
+40.5148 	EXP 	choice2_3: autoDraw = False
+40.5148 	EXP 	VATkeys: autoDraw = False
+40.5148 	EXP 	text_3: autoDraw = True
+41.0358 	EXP 	text_3: autoDraw = False
+41.0358 	EXP 	sentence_3: text = '_____ school come pole'
+41.0358 	EXP 	choice1_3: text = 'kick'
+41.0358 	EXP 	choice2_3: text = 'water'
+41.0358 	EXP 	sentence_3: autoDraw = True
+41.0358 	EXP 	choice1_3: autoDraw = True
+41.0358 	EXP 	choice2_3: autoDraw = True
+41.0358 	EXP 	VATkeys: autoDraw = True
+41.1158 	EXP 	New trial (rep=0, index=3): OrderedDict([('sentences', 'Catch ____ tree back'), ('choice_a', 'screen'), ('choice_b', 'drink')])
+41.1173 	DATA 	Keypress: left
+41.1309 	EXP 	sentence_3: autoDraw = False
+41.1309 	EXP 	choice1_3: autoDraw = False
+41.1309 	EXP 	choice2_3: autoDraw = False
+41.1309 	EXP 	VATkeys: autoDraw = False
+41.1309 	EXP 	text_3: autoDraw = True
+41.6355 	EXP 	text_3: autoDraw = False
+41.6355 	EXP 	text_3: autoDraw = False
+41.6355 	EXP 	sentence_3: text = 'Catch ____ tree back'
+41.6355 	EXP 	choice1_3: text = 'screen'
+41.6355 	EXP 	choice2_3: text = 'drink'
+41.6355 	EXP 	sentence_3: autoDraw = True
+41.6355 	EXP 	choice1_3: autoDraw = True
+41.6355 	EXP 	choice2_3: autoDraw = True
+41.6355 	EXP 	VATkeys: autoDraw = True
+41.7718 	DEBUG 	Read Excel file with pandas: round1_instructions.xlsx
+41.7737 	DEBUG 	Clearing unnamed columns from round1_instructions.xlsx
+41.7742 	EXP 	Imported round1_instructions.xlsx as conditions, 2 conditions, 1 params
+41.7749 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+41.7753 	EXP 	New trial (rep=0, index=0): OrderedDict([('instruct_1', 'Now that you have completed the practice task, you are ready to begin official communication with the Qiczox and Kivix commanders as the United States Interstellar Messenger and Decoder. You will need to communicate with the commanders by typing on your keyboard. Your messages need to be rapid, complete, and engaging. ')])
+41.7900 	DATA 	Keypress: left
+41.7995 	EXP 	sentence_3: autoDraw = False
+41.7995 	EXP 	choice1_3: autoDraw = False
+41.7995 	EXP 	choice2_3: autoDraw = False
+41.7995 	EXP 	VATkeys: autoDraw = False
+41.7995 	EXP 	textinstruct: text = 'Now that you have completed the practice task, you are ready to begin official communication with the Qiczox and Kivix commanders as the United States Interstellar Messenger and Decoder. You will need to communicate with the commanders by typing on your keyboard. Your messages need to be rapid, complete, and engaging. '
+41.7995 	EXP 	textinstruct: autoDraw = True
+41.7995 	EXP 	return_3: autoDraw = True
+42.2990 	EXP 	New trial (rep=0, index=1): OrderedDict([('instruct_1', 'They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Once you decide that your message is complete, hit the return key to send it and then begin a new message. Remember that these are alien species, so they do not think in the same way you do. When you are ready to begin alien communication, press the return key.\xa0')])
+42.3178 	DATA 	Keypress: return
+42.3277 	EXP 	textinstruct: autoDraw = False
+42.3277 	EXP 	return_3: autoDraw = False
+42.3277 	EXP 	textinstruct: text = 'They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Once you decide that your message is complete, hit the return key to send it and then begin a new message. Remember that these are alien species, so they do not think in the same way you do. When you are ready to begin alien communication, press the return key.\xa0'
+42.3277 	EXP 	textinstruct: autoDraw = True
+42.3277 	EXP 	return_3: autoDraw = True
+42.4481 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1000, seed=None
+42.4535 	EXP 	New trial (rep=0, index=0): None
+42.4544 	DATA 	Keypress: return
+42.4824 	EXP 	textinstruct: autoDraw = False
+42.4824 	EXP 	return_3: autoDraw = False
+42.4824 	EXP 	text_13: text = ''
+42.4824 	EXP 	actualcount1: text = 0
+42.4824 	EXP 	text_13: autoDraw = True
+42.4824 	EXP 	actualcount1: autoDraw = True
+42.4824 	EXP 	displayhcount_7: autoDraw = True
+42.4824 	EXP 	alien: autoDraw = True
+42.4824 	EXP 	border_text_4: autoDraw = True
+42.4824 	EXP 	countdowntimer_4: autoDraw = True
+42.4824 	EXP 	countdowntimer_4: text = '9:59'
+42.4978 	EXP 	countdowntimer_4: text = '9:59'
+42.5135 	EXP 	countdowntimer_4: text = '9:59'
+42.5304 	EXP 	countdowntimer_4: text = '9:59'
+42.5473 	EXP 	countdowntimer_4: text = '9:59'
+42.5640 	EXP 	countdowntimer_4: text = '9:59'
+42.5807 	EXP 	countdowntimer_4: text = '9:59'
+42.5972 	EXP 	countdowntimer_4: text = '9:59'
+42.5981 	DATA 	Keypress: return
+42.6696 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+42.6742 	EXP 	New trial (rep=1, index=0): None
+42.6884 	EXP 	countdowntimer_4: text = '9:59'
+42.6884 	EXP 	text_13: autoDraw = False
+42.6884 	EXP 	actualcount1: autoDraw = False
+42.6884 	EXP 	displayhcount_7: autoDraw = False
+42.6884 	EXP 	alien: autoDraw = False
+42.6884 	EXP 	border_text_4: autoDraw = False
+42.6884 	EXP 	countdowntimer_4: autoDraw = False
+42.6884 	EXP 	text_13: text = ''
+42.6884 	EXP 	actualcount1: text = 0
+42.6884 	EXP 	text_13: autoDraw = True
+42.6884 	EXP 	actualcount1: autoDraw = True
+42.6884 	EXP 	displayhcount_7: autoDraw = True
+42.6884 	EXP 	alien: autoDraw = True
+42.6884 	EXP 	border_text_4: autoDraw = True
+42.6884 	EXP 	countdowntimer_4: autoDraw = True
+42.6884 	EXP 	countdowntimer_4: text = '9:59'
+42.7015 	EXP 	countdowntimer_4: text = '9:59'
+42.7153 	EXP 	countdowntimer_4: text = '9:59'
+42.7310 	EXP 	countdowntimer_4: text = '9:59'
+42.7320 	DATA 	Keypress: return
+42.7734 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+42.7785 	EXP 	New trial (rep=2, index=0): None
+42.7908 	EXP 	countdowntimer_4: text = '9:59'
+42.7908 	EXP 	text_13: autoDraw = False
+42.7908 	EXP 	actualcount1: autoDraw = False
+42.7908 	EXP 	displayhcount_7: autoDraw = False
+42.7908 	EXP 	alien: autoDraw = False
+42.7908 	EXP 	border_text_4: autoDraw = False
+42.7908 	EXP 	countdowntimer_4: autoDraw = False
+42.7908 	EXP 	text_13: text = ''
+42.7908 	EXP 	actualcount1: text = 0
+42.7908 	EXP 	text_13: autoDraw = True
+42.7908 	EXP 	actualcount1: autoDraw = True
+42.7908 	EXP 	displayhcount_7: autoDraw = True
+42.7908 	EXP 	alien: autoDraw = True
+42.7908 	EXP 	border_text_4: autoDraw = True
+42.7908 	EXP 	countdowntimer_4: autoDraw = True
+42.7908 	EXP 	countdowntimer_4: text = '9:59'
+42.8043 	EXP 	countdowntimer_4: text = '9:59'
+42.8176 	EXP 	countdowntimer_4: text = '9:59'
+42.8314 	EXP 	countdowntimer_4: text = '9:59'
+42.8473 	EXP 	countdowntimer_4: text = '9:59'
+42.8637 	EXP 	countdowntimer_4: text = '9:59'
+42.8802 	EXP 	countdowntimer_4: text = '9:59'
+42.8974 	EXP 	countdowntimer_4: text = '9:59'
+42.9138 	EXP 	countdowntimer_4: text = '9:59'
+42.9305 	EXP 	countdowntimer_4: text = '9:59'
+42.9470 	EXP 	countdowntimer_4: text = '9:59'
+42.9634 	EXP 	countdowntimer_4: text = '9:59'
+42.9803 	EXP 	countdowntimer_4: text = '9:59'
+42.9972 	EXP 	countdowntimer_4: text = '9:59'
+43.0138 	EXP 	countdowntimer_4: text = '9:59'
+43.0306 	EXP 	countdowntimer_4: text = '9:59'
+43.0473 	EXP 	countdowntimer_4: text = '9:59'
+43.0634 	EXP 	countdowntimer_4: text = '9:59'
+43.0801 	EXP 	countdowntimer_4: text = '9:59'
+43.0971 	EXP 	countdowntimer_4: text = '9:59'
+43.1137 	EXP 	countdowntimer_4: text = '9:59'
+43.1307 	EXP 	countdowntimer_4: text = '9:59'
+43.1474 	EXP 	countdowntimer_4: text = '9:59'
+43.1636 	EXP 	countdowntimer_4: text = '9:59'
+43.1794 	EXP 	countdowntimer_4: text = '9:59'
+43.1962 	EXP 	countdowntimer_4: text = '9:59'
+43.2131 	EXP 	countdowntimer_4: text = '9:59'
+43.2298 	EXP 	countdowntimer_4: text = '9:59'
+43.2465 	EXP 	countdowntimer_4: text = '9:59'
+43.2629 	EXP 	countdowntimer_4: text = '9:59'
+43.2796 	EXP 	countdowntimer_4: text = '9:59'
+43.2964 	EXP 	countdowntimer_4: text = '9:59'
+43.3129 	EXP 	countdowntimer_4: text = '9:59'
+43.3298 	EXP 	countdowntimer_4: text = '9:59'
+43.3463 	EXP 	countdowntimer_4: text = '9:59'
+43.3630 	EXP 	countdowntimer_4: text = '9:59'
+43.3799 	EXP 	countdowntimer_4: text = '9:59'
+43.3960 	EXP 	countdowntimer_4: text = '9:59'
+43.4129 	EXP 	countdowntimer_4: text = '9:59'
+43.4292 	EXP 	countdowntimer_4: text = '9:59'
+43.4461 	EXP 	countdowntimer_4: text = '9:59'
+43.4626 	EXP 	countdowntimer_4: text = '9:59'
+43.4802 	EXP 	countdowntimer_4: text = '9:58'
+43.4963 	EXP 	countdowntimer_4: text = '9:58'
+43.5132 	EXP 	countdowntimer_4: text = '9:58'
+43.5297 	EXP 	countdowntimer_4: text = '9:58'
+43.5463 	EXP 	countdowntimer_4: text = '9:58'
+43.5631 	EXP 	countdowntimer_4: text = '9:58'
+43.5795 	EXP 	countdowntimer_4: text = '9:58'
+43.5963 	EXP 	countdowntimer_4: text = '9:58'
+43.6127 	EXP 	countdowntimer_4: text = '9:58'
+43.6295 	EXP 	countdowntimer_4: text = '9:58'
+43.6458 	EXP 	countdowntimer_4: text = '9:58'
+43.6626 	EXP 	countdowntimer_4: text = '9:58'
+43.6793 	EXP 	countdowntimer_4: text = '9:58'
+43.6960 	EXP 	countdowntimer_4: text = '9:58'
+43.7132 	EXP 	countdowntimer_4: text = '9:58'
+43.7298 	EXP 	countdowntimer_4: text = '9:58'
+43.7463 	EXP 	countdowntimer_4: text = '9:58'
+43.7631 	EXP 	countdowntimer_4: text = '9:58'
+43.7797 	EXP 	countdowntimer_4: text = '9:58'
+43.7965 	EXP 	countdowntimer_4: text = '9:58'
+43.8132 	EXP 	countdowntimer_4: text = '9:58'
+43.8299 	EXP 	countdowntimer_4: text = '9:58'
+43.8463 	EXP 	countdowntimer_4: text = '9:58'
+43.8629 	EXP 	countdowntimer_4: text = '9:58'
+43.8798 	EXP 	countdowntimer_4: text = '9:58'
+43.8969 	EXP 	countdowntimer_4: text = '9:58'
+43.9132 	EXP 	countdowntimer_4: text = '9:58'
+43.9299 	EXP 	countdowntimer_4: text = '9:58'
+43.9465 	EXP 	countdowntimer_4: text = '9:58'
+43.9631 	EXP 	countdowntimer_4: text = '9:58'
+43.9795 	EXP 	countdowntimer_4: text = '9:58'
+43.9964 	EXP 	countdowntimer_4: text = '9:58'
+44.0134 	EXP 	countdowntimer_4: text = '9:58'
+44.0298 	EXP 	countdowntimer_4: text = '9:58'
+44.0468 	EXP 	countdowntimer_4: text = '9:58'
+44.0629 	EXP 	countdowntimer_4: text = '9:58'
+44.0795 	EXP 	countdowntimer_4: text = '9:58'
+44.0964 	EXP 	countdowntimer_4: text = '9:58'
+44.0985 	DATA 	Keypress: h
+44.1144 	EXP 	text_13: text = 'h'
+44.1144 	EXP 	countdowntimer_4: text = '9:58'
+44.1295 	EXP 	countdowntimer_4: text = '9:58'
+44.1462 	EXP 	countdowntimer_4: text = '9:58'
+44.1629 	EXP 	countdowntimer_4: text = '9:58'
+44.1797 	EXP 	countdowntimer_4: text = '9:58'
+44.1959 	EXP 	countdowntimer_4: text = '9:58'
+44.2130 	EXP 	countdowntimer_4: text = '9:58'
+44.2297 	EXP 	countdowntimer_4: text = '9:58'
+44.2467 	EXP 	countdowntimer_4: text = '9:58'
+44.2631 	EXP 	countdowntimer_4: text = '9:58'
+44.2792 	EXP 	countdowntimer_4: text = '9:58'
+44.2810 	DATA 	Keypress: e
+44.2974 	EXP 	text_13: text = 'he'
+44.2974 	EXP 	countdowntimer_4: text = '9:58'
+44.3130 	EXP 	countdowntimer_4: text = '9:58'
+44.3298 	EXP 	countdowntimer_4: text = '9:58'
+44.3310 	DATA 	Keypress: l
+44.3469 	EXP 	text_13: text = 'hel'
+44.3469 	EXP 	countdowntimer_4: text = '9:58'
+44.3633 	EXP 	countdowntimer_4: text = '9:58'
+44.3796 	EXP 	countdowntimer_4: text = '9:58'
+44.3966 	EXP 	countdowntimer_4: text = '9:58'
+44.4129 	EXP 	countdowntimer_4: text = '9:58'
+44.4296 	EXP 	countdowntimer_4: text = '9:58'
+44.4464 	EXP 	countdowntimer_4: text = '9:58'
+44.4632 	EXP 	countdowntimer_4: text = '9:58'
+44.4689 	DATA 	Keypress: l
+44.4808 	EXP 	countdowntimer_4: text = '9:57'
+44.4970 	EXP 	text_13: text = 'hell'
+44.4970 	EXP 	countdowntimer_4: text = '9:57'
+44.5131 	EXP 	countdowntimer_4: text = '9:57'
+44.5298 	EXP 	countdowntimer_4: text = '9:57'
+44.5459 	EXP 	countdowntimer_4: text = '9:57'
+44.5629 	EXP 	countdowntimer_4: text = '9:57'
+44.5788 	EXP 	countdowntimer_4: text = '9:57'
+44.5958 	EXP 	countdowntimer_4: text = '9:57'
+44.6126 	EXP 	countdowntimer_4: text = '9:57'
+44.6143 	DATA 	Keypress: o
+44.6307 	EXP 	text_13: text = 'hello'
+44.6307 	EXP 	countdowntimer_4: text = '9:57'
+44.6464 	EXP 	countdowntimer_4: text = '9:57'
+44.6630 	EXP 	countdowntimer_4: text = '9:57'
+44.6796 	EXP 	countdowntimer_4: text = '9:57'
+44.6963 	EXP 	countdowntimer_4: text = '9:57'
+44.7129 	EXP 	countdowntimer_4: text = '9:57'
+44.7297 	EXP 	countdowntimer_4: text = '9:57'
+44.7462 	EXP 	countdowntimer_4: text = '9:57'
+44.7629 	EXP 	countdowntimer_4: text = '9:57'
+44.7798 	EXP 	countdowntimer_4: text = '9:57'
+44.7972 	EXP 	countdowntimer_4: text = '9:57'
+44.8133 	EXP 	countdowntimer_4: text = '9:57'
+44.8145 	DATA 	Keypress: space
+44.8310 	EXP 	text_13: text = 'hello '
+44.8310 	EXP 	countdowntimer_4: text = '9:57'
+44.8468 	EXP 	countdowntimer_4: text = '9:57'
+44.8630 	EXP 	countdowntimer_4: text = '9:57'
+44.8796 	EXP 	countdowntimer_4: text = '9:57'
+44.8962 	EXP 	countdowntimer_4: text = '9:57'
+44.9128 	EXP 	countdowntimer_4: text = '9:57'
+44.9296 	EXP 	countdowntimer_4: text = '9:57'
+44.9460 	EXP 	countdowntimer_4: text = '9:57'
+44.9475 	DATA 	Keypress: m
+44.9639 	EXP 	text_13: text = 'hello m'
+44.9639 	EXP 	countdowntimer_4: text = '9:57'
+44.9794 	EXP 	countdowntimer_4: text = '9:57'
+44.9961 	EXP 	countdowntimer_4: text = '9:57'
+45.0124 	EXP 	countdowntimer_4: text = '9:57'
+45.0293 	EXP 	countdowntimer_4: text = '9:57'
+45.0307 	DATA 	Keypress: y
+45.0478 	EXP 	text_13: text = 'hello my'
+45.0478 	EXP 	countdowntimer_4: text = '9:57'
+45.0640 	EXP 	countdowntimer_4: text = '9:57'
+45.0800 	EXP 	countdowntimer_4: text = '9:57'
+45.0967 	EXP 	countdowntimer_4: text = '9:57'
+45.1134 	EXP 	countdowntimer_4: text = '9:57'
+45.1296 	EXP 	countdowntimer_4: text = '9:57'
+45.1464 	EXP 	countdowntimer_4: text = '9:57'
+45.1483 	DATA 	Keypress: space
+45.1651 	EXP 	text_13: text = 'hello my '
+45.1651 	EXP 	countdowntimer_4: text = '9:57'
+45.1800 	EXP 	countdowntimer_4: text = '9:57'
+45.1966 	EXP 	countdowntimer_4: text = '9:57'
+45.2130 	EXP 	countdowntimer_4: text = '9:57'
+45.2293 	EXP 	countdowntimer_4: text = '9:57'
+45.2464 	EXP 	countdowntimer_4: text = '9:57'
+45.2631 	EXP 	countdowntimer_4: text = '9:57'
+45.2802 	EXP 	countdowntimer_4: text = '9:57'
+45.2965 	EXP 	countdowntimer_4: text = '9:57'
+45.2981 	DATA 	Keypress: n
+45.3145 	EXP 	text_13: text = 'hello my n'
+45.3145 	EXP 	countdowntimer_4: text = '9:57'
+45.3299 	EXP 	countdowntimer_4: text = '9:57'
+45.3469 	EXP 	countdowntimer_4: text = '9:57'
+45.3632 	EXP 	countdowntimer_4: text = '9:57'
+45.3803 	EXP 	countdowntimer_4: text = '9:57'
+45.3967 	EXP 	countdowntimer_4: text = '9:57'
+45.3979 	DATA 	Keypress: a
+45.4139 	EXP 	text_13: text = 'hello my na'
+45.4139 	EXP 	countdowntimer_4: text = '9:57'
+45.4299 	EXP 	countdowntimer_4: text = '9:57'
+45.4466 	EXP 	countdowntimer_4: text = '9:57'
+45.4630 	EXP 	countdowntimer_4: text = '9:57'
+45.4809 	EXP 	countdowntimer_4: text = '9:56'
+45.4966 	EXP 	countdowntimer_4: text = '9:56'
+45.5132 	EXP 	countdowntimer_4: text = '9:56'
+45.5300 	EXP 	countdowntimer_4: text = '9:56'
+45.5465 	EXP 	countdowntimer_4: text = '9:56'
+45.5483 	DATA 	Keypress: m
+45.5658 	EXP 	text_13: text = 'hello my nam'
+45.5658 	EXP 	countdowntimer_4: text = '9:56'
+45.5808 	EXP 	countdowntimer_4: text = '9:56'
+45.5969 	EXP 	countdowntimer_4: text = '9:56'
+45.6135 	EXP 	countdowntimer_4: text = '9:56'
+45.6301 	EXP 	countdowntimer_4: text = '9:56'
+45.6464 	EXP 	countdowntimer_4: text = '9:56'
+45.6503 	DATA 	Keypress: e
+45.6633 	EXP 	countdowntimer_4: text = '9:56'
+45.6808 	EXP 	text_13: text = 'hello my name'
+45.6808 	EXP 	countdowntimer_4: text = '9:56'
+45.6964 	EXP 	countdowntimer_4: text = '9:56'
+45.7131 	EXP 	countdowntimer_4: text = '9:56'
+45.7299 	EXP 	countdowntimer_4: text = '9:56'
+45.7311 	DATA 	Keypress: space
+45.7476 	EXP 	text_13: text = 'hello my name '
+45.7476 	EXP 	countdowntimer_4: text = '9:56'
+45.7635 	EXP 	countdowntimer_4: text = '9:56'
+45.7799 	EXP 	countdowntimer_4: text = '9:56'
+45.7965 	EXP 	countdowntimer_4: text = '9:56'
+45.8126 	EXP 	countdowntimer_4: text = '9:56'
+45.8294 	EXP 	countdowntimer_4: text = '9:56'
+45.8461 	EXP 	countdowntimer_4: text = '9:56'
+45.8474 	DATA 	Keypress: i
+45.8647 	EXP 	text_13: text = 'hello my name i'
+45.8647 	EXP 	countdowntimer_4: text = '9:56'
+45.8804 	EXP 	countdowntimer_4: text = '9:56'
+45.8964 	EXP 	countdowntimer_4: text = '9:56'
+45.9129 	EXP 	countdowntimer_4: text = '9:56'
+45.9296 	EXP 	countdowntimer_4: text = '9:56'
+45.9311 	DATA 	Keypress: s
+45.9480 	EXP 	text_13: text = 'hello my name is'
+45.9480 	EXP 	countdowntimer_4: text = '9:56'
+45.9628 	EXP 	countdowntimer_4: text = '9:56'
+45.9798 	EXP 	countdowntimer_4: text = '9:56'
+45.9811 	DATA 	Keypress: space
+45.9979 	EXP 	text_13: text = 'hello my name is '
+45.9979 	EXP 	countdowntimer_4: text = '9:56'
+46.0132 	EXP 	countdowntimer_4: text = '9:56'
+46.0294 	EXP 	countdowntimer_4: text = '9:56'
+46.0459 	EXP 	countdowntimer_4: text = '9:56'
+46.0627 	EXP 	countdowntimer_4: text = '9:56'
+46.0796 	EXP 	countdowntimer_4: text = '9:56'
+46.0962 	EXP 	countdowntimer_4: text = '9:56'
+46.1128 	EXP 	countdowntimer_4: text = '9:56'
+46.1296 	EXP 	countdowntimer_4: text = '9:56'
+46.1309 	DATA 	Keypress: h
+46.1473 	EXP 	text_13: text = 'hello my name is h'
+46.1473 	EXP 	countdowntimer_4: text = '9:56'
+46.1628 	EXP 	countdowntimer_4: text = '9:56'
+46.1801 	EXP 	countdowntimer_4: text = '9:56'
+46.1961 	EXP 	countdowntimer_4: text = '9:56'
+46.1976 	DATA 	Keypress: a
+46.2144 	EXP 	text_13: text = 'hello my name is ha'
+46.2144 	EXP 	countdowntimer_4: text = '9:56'
+46.2294 	EXP 	countdowntimer_4: text = '9:56'
+46.2459 	EXP 	countdowntimer_4: text = '9:56'
+46.2630 	EXP 	countdowntimer_4: text = '9:56'
+46.2798 	EXP 	countdowntimer_4: text = '9:56'
+46.2964 	EXP 	countdowntimer_4: text = '9:56'
+46.3128 	EXP 	countdowntimer_4: text = '9:56'
+46.3294 	EXP 	countdowntimer_4: text = '9:56'
+46.3323 	DATA 	Keypress: n
+46.3459 	EXP 	countdowntimer_4: text = '9:56'
+46.3638 	EXP 	text_13: text = 'hello my name is han'
+46.3638 	EXP 	countdowntimer_4: text = '9:56'
+46.3793 	EXP 	countdowntimer_4: text = '9:56'
+46.3962 	EXP 	countdowntimer_4: text = '9:56'
+46.4127 	EXP 	countdowntimer_4: text = '9:56'
+46.4293 	EXP 	countdowntimer_4: text = '9:56'
+46.4464 	EXP 	countdowntimer_4: text = '9:56'
+46.4626 	EXP 	countdowntimer_4: text = '9:56'
+46.4644 	DATA 	Keypress: n
+46.4824 	EXP 	text_13: text = 'hello my name is hann'
+46.4824 	EXP 	countdowntimer_4: text = '9:55'
+46.4984 	EXP 	countdowntimer_4: text = '9:55'
+46.5137 	EXP 	countdowntimer_4: text = '9:55'
+46.5298 	EXP 	countdowntimer_4: text = '9:55'
+46.5457 	EXP 	countdowntimer_4: text = '9:55'
+46.5629 	EXP 	countdowntimer_4: text = '9:55'
+46.5643 	DATA 	Keypress: a
+46.5813 	EXP 	text_13: text = 'hello my name is hanna'
+46.5813 	EXP 	countdowntimer_4: text = '9:55'
+46.5959 	EXP 	countdowntimer_4: text = '9:55'
+46.6125 	EXP 	countdowntimer_4: text = '9:55'
+46.6140 	DATA 	Keypress: h
+46.6308 	EXP 	text_13: text = 'hello my name is hannah'
+46.6308 	EXP 	countdowntimer_4: text = '9:55'
+46.6464 	EXP 	countdowntimer_4: text = '9:55'
+46.6626 	EXP 	countdowntimer_4: text = '9:55'
+46.6796 	EXP 	countdowntimer_4: text = '9:55'
+46.6963 	EXP 	countdowntimer_4: text = '9:55'
+46.7131 	EXP 	countdowntimer_4: text = '9:55'
+46.7300 	EXP 	countdowntimer_4: text = '9:55'
+46.7466 	EXP 	countdowntimer_4: text = '9:55'
+46.7632 	EXP 	countdowntimer_4: text = '9:55'
+46.7644 	DATA 	Keypress: space
+46.7803 	EXP 	text_13: text = 'hello my name is hannah '
+46.7803 	EXP 	countdowntimer_4: text = '9:55'
+46.7963 	EXP 	countdowntimer_4: text = '9:55'
+46.8129 	EXP 	countdowntimer_4: text = '9:55'
+46.8295 	EXP 	countdowntimer_4: text = '9:55'
+46.8465 	EXP 	countdowntimer_4: text = '9:55'
+46.8631 	EXP 	countdowntimer_4: text = '9:55'
+46.8799 	EXP 	countdowntimer_4: text = '9:55'
+46.8813 	DATA 	Keypress: a
+46.8982 	EXP 	text_13: text = 'hello my name is hannah a'
+46.8982 	EXP 	countdowntimer_4: text = '9:55'
+46.9129 	EXP 	countdowntimer_4: text = '9:55'
+46.9295 	EXP 	countdowntimer_4: text = '9:55'
+46.9310 	DATA 	Keypress: n
+46.9475 	EXP 	text_13: text = 'hello my name is hannah an'
+46.9475 	EXP 	countdowntimer_4: text = '9:55'
+46.9634 	EXP 	countdowntimer_4: text = '9:55'
+46.9799 	EXP 	countdowntimer_4: text = '9:55'
+46.9957 	EXP 	countdowntimer_4: text = '9:55'
+46.9975 	DATA 	Keypress: d
+47.0155 	EXP 	text_13: text = 'hello my name is hannah and'
+47.0155 	EXP 	countdowntimer_4: text = '9:55'
+47.0304 	EXP 	countdowntimer_4: text = '9:55'
+47.0464 	EXP 	countdowntimer_4: text = '9:55'
+47.0628 	EXP 	countdowntimer_4: text = '9:55'
+47.0796 	EXP 	countdowntimer_4: text = '9:55'
+47.0808 	DATA 	Keypress: space
+47.0975 	EXP 	text_13: text = 'hello my name is hannah and '
+47.0975 	EXP 	countdowntimer_4: text = '9:55'
+47.1130 	EXP 	countdowntimer_4: text = '9:55'
+47.1291 	EXP 	countdowntimer_4: text = '9:55'
+47.1462 	EXP 	countdowntimer_4: text = '9:55'
+47.1632 	EXP 	countdowntimer_4: text = '9:55'
+47.1797 	EXP 	countdowntimer_4: text = '9:55'
+47.1965 	EXP 	countdowntimer_4: text = '9:55'
+47.2131 	EXP 	countdowntimer_4: text = '9:55'
+47.2296 	EXP 	countdowntimer_4: text = '9:55'
+47.2463 	EXP 	countdowntimer_4: text = '9:55'
+47.2475 	DATA 	Keypress: i
+47.2643 	EXP 	text_13: text = 'hello my name is hannah and i'
+47.2643 	EXP 	countdowntimer_4: text = '9:55'
+47.2797 	EXP 	countdowntimer_4: text = '9:55'
+47.2966 	EXP 	countdowntimer_4: text = '9:55'
+47.3129 	EXP 	countdowntimer_4: text = '9:55'
+47.3295 	EXP 	countdowntimer_4: text = '9:55'
+47.3461 	EXP 	countdowntimer_4: text = '9:55'
+47.3629 	EXP 	countdowntimer_4: text = '9:55'
+47.3793 	EXP 	countdowntimer_4: text = '9:55'
+47.3818 	DATA 	Keypress: space
+47.3990 	EXP 	text_13: text = 'hello my name is hannah and i '
+47.3990 	EXP 	countdowntimer_4: text = '9:55'
+47.4141 	EXP 	countdowntimer_4: text = '9:55'
+47.4298 	EXP 	countdowntimer_4: text = '9:55'
+47.4462 	EXP 	countdowntimer_4: text = '9:55'
+47.4630 	EXP 	countdowntimer_4: text = '9:55'
+47.4823 	EXP 	countdowntimer_4: text = '9:54'
+47.4972 	EXP 	countdowntimer_4: text = '9:54'
+47.5130 	EXP 	countdowntimer_4: text = '9:54'
+47.5299 	EXP 	countdowntimer_4: text = '9:54'
+47.5465 	EXP 	countdowntimer_4: text = '9:54'
+47.5629 	EXP 	countdowntimer_4: text = '9:54'
+47.5796 	EXP 	countdowntimer_4: text = '9:54'
+47.5959 	EXP 	countdowntimer_4: text = '9:54'
+47.5977 	DATA 	Keypress: l
+47.6154 	EXP 	text_13: text = 'hello my name is hannah and i l'
+47.6154 	EXP 	countdowntimer_4: text = '9:54'
+47.6305 	EXP 	countdowntimer_4: text = '9:54'
+47.6455 	EXP 	countdowntimer_4: text = '9:54'
+47.6631 	EXP 	countdowntimer_4: text = '9:54'
+47.6792 	EXP 	countdowntimer_4: text = '9:54'
+47.6807 	DATA 	Keypress: i
+47.6980 	EXP 	text_13: text = 'hello my name is hannah and i li'
+47.6980 	EXP 	countdowntimer_4: text = '9:54'
+47.7136 	EXP 	countdowntimer_4: text = '9:54'
+47.7295 	EXP 	countdowntimer_4: text = '9:54'
+47.7465 	EXP 	countdowntimer_4: text = '9:54'
+47.7629 	EXP 	countdowntimer_4: text = '9:54'
+47.7795 	EXP 	countdowntimer_4: text = '9:54'
+47.7960 	EXP 	countdowntimer_4: text = '9:54'
+47.8127 	EXP 	countdowntimer_4: text = '9:54'
+47.8298 	EXP 	countdowntimer_4: text = '9:54'
+47.8464 	EXP 	countdowntimer_4: text = '9:54'
+47.8631 	EXP 	countdowntimer_4: text = '9:54'
+47.8798 	EXP 	countdowntimer_4: text = '9:54'
+47.8810 	DATA 	Keypress: k
+47.8823 	DATA 	Keypress: e
+47.8982 	EXP 	text_13: text = 'hello my name is hannah and i lik'
+47.8982 	EXP 	countdowntimer_4: text = '9:54'
+47.9144 	EXP 	countdowntimer_4: text = '9:54'
+47.9296 	EXP 	countdowntimer_4: text = '9:54'
+47.9460 	EXP 	countdowntimer_4: text = '9:54'
+47.9632 	EXP 	countdowntimer_4: text = '9:54'
+47.9799 	EXP 	countdowntimer_4: text = '9:54'
+47.9965 	EXP 	countdowntimer_4: text = '9:54'
+48.0130 	EXP 	countdowntimer_4: text = '9:54'
+48.0296 	EXP 	countdowntimer_4: text = '9:54'
+48.0467 	EXP 	countdowntimer_4: text = '9:54'
+48.0492 	DATA 	Keypress: space
+48.0659 	EXP 	text_13: text = 'hello my name is hannah and i lik '
+48.0659 	EXP 	countdowntimer_4: text = '9:54'
+48.0806 	EXP 	countdowntimer_4: text = '9:54'
+48.0965 	EXP 	countdowntimer_4: text = '9:54'
+48.1130 	EXP 	countdowntimer_4: text = '9:54'
+48.1296 	EXP 	countdowntimer_4: text = '9:54'
+48.1461 	EXP 	countdowntimer_4: text = '9:54'
+48.1630 	EXP 	countdowntimer_4: text = '9:54'
+48.1796 	EXP 	countdowntimer_4: text = '9:54'
+48.1967 	EXP 	countdowntimer_4: text = '9:54'
+48.2128 	EXP 	countdowntimer_4: text = '9:54'
+48.2295 	EXP 	countdowntimer_4: text = '9:54'
+48.2459 	EXP 	countdowntimer_4: text = '9:54'
+48.2630 	EXP 	countdowntimer_4: text = '9:54'
+48.2797 	EXP 	countdowntimer_4: text = '9:54'
+48.2964 	EXP 	countdowntimer_4: text = '9:54'
+48.3134 	EXP 	countdowntimer_4: text = '9:54'
+48.3297 	EXP 	countdowntimer_4: text = '9:54'
+48.3464 	EXP 	countdowntimer_4: text = '9:54'
+48.3630 	EXP 	countdowntimer_4: text = '9:54'
+48.3797 	EXP 	countdowntimer_4: text = '9:54'
+48.3964 	EXP 	countdowntimer_4: text = '9:54'
+48.4128 	EXP 	countdowntimer_4: text = '9:54'
+48.4299 	EXP 	countdowntimer_4: text = '9:54'
+48.4465 	EXP 	countdowntimer_4: text = '9:54'
+48.4630 	EXP 	countdowntimer_4: text = '9:54'
+48.4814 	EXP 	countdowntimer_4: text = '9:53'
+48.4964 	EXP 	countdowntimer_4: text = '9:53'
+48.5130 	EXP 	countdowntimer_4: text = '9:53'
+48.5301 	EXP 	countdowntimer_4: text = '9:53'
+48.5465 	EXP 	countdowntimer_4: text = '9:53'
+48.5634 	EXP 	countdowntimer_4: text = '9:53'
+48.5795 	EXP 	countdowntimer_4: text = '9:53'
+48.5964 	EXP 	countdowntimer_4: text = '9:53'
+48.6134 	EXP 	countdowntimer_4: text = '9:53'
+48.6292 	EXP 	countdowntimer_4: text = '9:53'
+48.6304 	DATA 	Keypress: backspace
+48.6480 	EXP 	text_13: text = 'hello my name is hannah and i lik'
+48.6480 	EXP 	countdowntimer_4: text = '9:53'
+48.6632 	EXP 	countdowntimer_4: text = '9:53'
+48.6792 	EXP 	countdowntimer_4: text = '9:53'
+48.6809 	DATA 	Keypress: e
+48.7006 	EXP 	text_13: text = 'hello my name is hannah and i like'
+48.7006 	EXP 	countdowntimer_4: text = '9:53'
+48.7160 	EXP 	countdowntimer_4: text = '9:53'
+48.7306 	EXP 	countdowntimer_4: text = '9:53'
+48.7464 	EXP 	countdowntimer_4: text = '9:53'
+48.7632 	EXP 	countdowntimer_4: text = '9:53'
+48.7792 	EXP 	countdowntimer_4: text = '9:53'
+48.7816 	DATA 	Keypress: space
+48.7985 	EXP 	text_13: text = 'hello my name is hannah and i like '
+48.7985 	EXP 	countdowntimer_4: text = '9:53'
+48.8149 	EXP 	countdowntimer_4: text = '9:53'
+48.8300 	EXP 	countdowntimer_4: text = '9:53'
+48.8464 	EXP 	countdowntimer_4: text = '9:53'
+48.8624 	EXP 	countdowntimer_4: text = '9:53'
+48.8797 	EXP 	countdowntimer_4: text = '9:53'
+48.8968 	EXP 	countdowntimer_4: text = '9:53'
+48.8981 	DATA 	Keypress: s
+48.9157 	EXP 	text_13: text = 'hello my name is hannah and i like s'
+48.9157 	EXP 	countdowntimer_4: text = '9:53'
+48.9305 	EXP 	countdowntimer_4: text = '9:53'
+48.9464 	EXP 	countdowntimer_4: text = '9:53'
+48.9631 	EXP 	countdowntimer_4: text = '9:53'
+48.9803 	EXP 	countdowntimer_4: text = '9:53'
+48.9965 	EXP 	countdowntimer_4: text = '9:53'
+49.0129 	EXP 	countdowntimer_4: text = '9:53'
+49.0296 	EXP 	countdowntimer_4: text = '9:53'
+49.0313 	DATA 	Keypress: c
+49.0485 	EXP 	text_13: text = 'hello my name is hannah and i like sc'
+49.0485 	EXP 	countdowntimer_4: text = '9:53'
+49.0646 	EXP 	countdowntimer_4: text = '9:53'
+49.0658 	DATA 	Keypress: h
+49.0815 	EXP 	text_13: text = 'hello my name is hannah and i like sch'
+49.0815 	EXP 	countdowntimer_4: text = '9:53'
+49.0978 	EXP 	countdowntimer_4: text = '9:53'
+49.1135 	EXP 	countdowntimer_4: text = '9:53'
+49.1296 	EXP 	countdowntimer_4: text = '9:53'
+49.1460 	EXP 	countdowntimer_4: text = '9:53'
+49.1631 	EXP 	countdowntimer_4: text = '9:53'
+49.1797 	EXP 	countdowntimer_4: text = '9:53'
+49.1964 	EXP 	countdowntimer_4: text = '9:53'
+49.2125 	EXP 	countdowntimer_4: text = '9:53'
+49.2143 	DATA 	Keypress: o
+49.2327 	EXP 	text_13: text = 'hello my name is hannah and i like scho'
+49.2327 	EXP 	countdowntimer_4: text = '9:53'
+49.2472 	EXP 	countdowntimer_4: text = '9:53'
+49.2624 	EXP 	countdowntimer_4: text = '9:53'
+49.2791 	EXP 	countdowntimer_4: text = '9:53'
+49.2961 	EXP 	countdowntimer_4: text = '9:53'
+49.3125 	EXP 	countdowntimer_4: text = '9:53'
+49.3290 	EXP 	countdowntimer_4: text = '9:53'
+49.3308 	DATA 	Keypress: o
+49.3476 	EXP 	text_13: text = 'hello my name is hannah and i like schoo'
+49.3476 	EXP 	countdowntimer_4: text = '9:53'
+49.3625 	EXP 	countdowntimer_4: text = '9:53'
+49.3794 	EXP 	countdowntimer_4: text = '9:53'
+49.3962 	EXP 	countdowntimer_4: text = '9:53'
+49.4126 	EXP 	countdowntimer_4: text = '9:53'
+49.4294 	EXP 	countdowntimer_4: text = '9:53'
+49.4462 	EXP 	countdowntimer_4: text = '9:53'
+49.4625 	EXP 	countdowntimer_4: text = '9:53'
+49.4807 	EXP 	countdowntimer_4: text = '9:52'
+49.4959 	EXP 	countdowntimer_4: text = '9:52'
+49.5121 	EXP 	countdowntimer_4: text = '9:52'
+49.5143 	DATA 	Keypress: l
+49.5322 	EXP 	text_13: text = 'hello my name is hannah and i like school'
+49.5322 	EXP 	countdowntimer_4: text = '9:52'
+49.5467 	EXP 	countdowntimer_4: text = '9:52'
+49.5629 	EXP 	countdowntimer_4: text = '9:52'
+49.5791 	EXP 	countdowntimer_4: text = '9:52'
+49.5960 	EXP 	countdowntimer_4: text = '9:52'
+49.6128 	EXP 	countdowntimer_4: text = '9:52'
+49.6292 	EXP 	countdowntimer_4: text = '9:52'
+49.6458 	EXP 	countdowntimer_4: text = '9:52'
+49.6629 	EXP 	countdowntimer_4: text = '9:52'
+49.6799 	EXP 	countdowntimer_4: text = '9:52'
+49.6956 	EXP 	countdowntimer_4: text = '9:52'
+49.6970 	DATA 	Keypress: return
+49.8961 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+49.8963 	EXP 	New trial (rep=0, index=0): None
+49.9307 	EXP 	countdowntimer_4: text = '9:52'
+49.9307 	EXP 	text_13: autoDraw = False
+49.9307 	EXP 	actualcount1: autoDraw = False
+49.9307 	EXP 	displayhcount_7: autoDraw = False
+49.9307 	EXP 	alien: autoDraw = False
+49.9307 	EXP 	border_text_4: autoDraw = False
+49.9307 	EXP 	countdowntimer_4: autoDraw = False
+49.9307 	EXP 	hostage_4: autoDraw = True
+49.9307 	EXP 	releasenotify: autoDraw = True
+50.4212 	EXP 	New trial (rep=3, index=0): None
+50.4341 	EXP 	hostage_4: autoDraw = False
+50.4341 	EXP 	releasenotify: autoDraw = False
+50.4341 	EXP 	text_13: text = ''
+50.4341 	EXP 	actualcount1: text = 1
+50.4341 	EXP 	text_13: autoDraw = True
+50.4341 	EXP 	actualcount1: autoDraw = True
+50.4341 	EXP 	displayhcount_7: autoDraw = True
+50.4341 	EXP 	alien: autoDraw = True
+50.4341 	EXP 	border_text_4: autoDraw = True
+50.4341 	EXP 	countdowntimer_4: autoDraw = True
+50.4341 	EXP 	countdowntimer_4: text = '9:52'
+50.4494 	EXP 	countdowntimer_4: text = '9:52'
+50.4635 	EXP 	countdowntimer_4: text = '9:52'
+50.4803 	EXP 	countdowntimer_4: text = '9:51'
+50.4960 	EXP 	countdowntimer_4: text = '9:51'
+50.5127 	EXP 	countdowntimer_4: text = '9:51'
+50.5292 	EXP 	countdowntimer_4: text = '9:51'
+50.5455 	EXP 	countdowntimer_4: text = '9:51'
+50.5629 	EXP 	countdowntimer_4: text = '9:51'
+50.5795 	EXP 	countdowntimer_4: text = '9:51'
+50.5957 	EXP 	countdowntimer_4: text = '9:51'
+50.6123 	EXP 	countdowntimer_4: text = '9:51'
+50.6293 	EXP 	countdowntimer_4: text = '9:51'
+50.6461 	EXP 	countdowntimer_4: text = '9:51'
+50.6627 	EXP 	countdowntimer_4: text = '9:51'
+50.6793 	EXP 	countdowntimer_4: text = '9:51'
+50.6958 	EXP 	countdowntimer_4: text = '9:51'
+50.7124 	EXP 	countdowntimer_4: text = '9:51'
+50.7293 	EXP 	countdowntimer_4: text = '9:51'
+50.7461 	EXP 	countdowntimer_4: text = '9:51'
+50.7626 	EXP 	countdowntimer_4: text = '9:51'
+50.7790 	EXP 	countdowntimer_4: text = '9:51'
+50.7961 	EXP 	countdowntimer_4: text = '9:51'
+50.8125 	EXP 	countdowntimer_4: text = '9:51'
+50.8292 	EXP 	countdowntimer_4: text = '9:51'
+50.8456 	EXP 	countdowntimer_4: text = '9:51'
+50.8629 	EXP 	countdowntimer_4: text = '9:51'
+50.8794 	EXP 	countdowntimer_4: text = '9:51'
+50.8957 	EXP 	countdowntimer_4: text = '9:51'
+50.9127 	EXP 	countdowntimer_4: text = '9:51'
+50.9293 	EXP 	countdowntimer_4: text = '9:51'
+50.9458 	EXP 	countdowntimer_4: text = '9:51'
+50.9622 	EXP 	countdowntimer_4: text = '9:51'
+50.9792 	EXP 	countdowntimer_4: text = '9:51'
+50.9961 	EXP 	countdowntimer_4: text = '9:51'
+51.0127 	EXP 	countdowntimer_4: text = '9:51'
+51.0293 	EXP 	countdowntimer_4: text = '9:51'
+51.0460 	EXP 	countdowntimer_4: text = '9:51'
+51.0626 	EXP 	countdowntimer_4: text = '9:51'
+51.0788 	EXP 	countdowntimer_4: text = '9:51'
+51.0960 	EXP 	countdowntimer_4: text = '9:51'
+51.1126 	EXP 	countdowntimer_4: text = '9:51'
+51.1296 	EXP 	countdowntimer_4: text = '9:51'
+51.1458 	EXP 	countdowntimer_4: text = '9:51'
+51.1625 	EXP 	countdowntimer_4: text = '9:51'
+51.1789 	EXP 	countdowntimer_4: text = '9:51'
+51.1955 	EXP 	countdowntimer_4: text = '9:51'
+51.2126 	EXP 	countdowntimer_4: text = '9:51'
+51.2297 	EXP 	countdowntimer_4: text = '9:51'
+51.2464 	EXP 	countdowntimer_4: text = '9:51'
+51.2624 	EXP 	countdowntimer_4: text = '9:51'
+51.2792 	EXP 	countdowntimer_4: text = '9:51'
+51.2958 	EXP 	countdowntimer_4: text = '9:51'
+51.3126 	EXP 	countdowntimer_4: text = '9:51'
+51.3292 	EXP 	countdowntimer_4: text = '9:51'
+51.3459 	EXP 	countdowntimer_4: text = '9:51'
+51.3627 	EXP 	countdowntimer_4: text = '9:51'
+51.3792 	EXP 	countdowntimer_4: text = '9:51'
+51.3960 	EXP 	countdowntimer_4: text = '9:51'
+51.4122 	EXP 	countdowntimer_4: text = '9:51'
+51.4291 	EXP 	countdowntimer_4: text = '9:51'
+51.4458 	EXP 	countdowntimer_4: text = '9:51'
+51.4626 	EXP 	countdowntimer_4: text = '9:51'
+51.4804 	EXP 	countdowntimer_4: text = '9:50'
+51.4959 	EXP 	countdowntimer_4: text = '9:50'
+51.5127 	EXP 	countdowntimer_4: text = '9:50'
+51.5295 	EXP 	countdowntimer_4: text = '9:50'
+51.5458 	EXP 	countdowntimer_4: text = '9:50'
+51.5624 	EXP 	countdowntimer_4: text = '9:50'
+51.5791 	EXP 	countdowntimer_4: text = '9:50'
+51.5957 	EXP 	countdowntimer_4: text = '9:50'
+51.6124 	EXP 	countdowntimer_4: text = '9:50'
+51.6290 	EXP 	countdowntimer_4: text = '9:50'
+51.6466 	EXP 	countdowntimer_4: text = '9:50'
+51.6628 	EXP 	countdowntimer_4: text = '9:50'
+51.6795 	EXP 	countdowntimer_4: text = '9:50'
+51.6959 	EXP 	countdowntimer_4: text = '9:50'
+51.7123 	EXP 	countdowntimer_4: text = '9:50'
+51.7292 	EXP 	countdowntimer_4: text = '9:50'
+51.7461 	EXP 	countdowntimer_4: text = '9:50'
+51.7626 	EXP 	countdowntimer_4: text = '9:50'
+51.7792 	EXP 	countdowntimer_4: text = '9:50'
+51.7961 	EXP 	countdowntimer_4: text = '9:50'
+51.8124 	EXP 	countdowntimer_4: text = '9:50'
+51.8293 	EXP 	countdowntimer_4: text = '9:50'
+51.8458 	EXP 	countdowntimer_4: text = '9:50'
+51.8624 	EXP 	countdowntimer_4: text = '9:50'
+51.8790 	EXP 	countdowntimer_4: text = '9:50'
+51.8963 	EXP 	countdowntimer_4: text = '9:50'
+51.9123 	EXP 	countdowntimer_4: text = '9:50'
+51.9291 	EXP 	countdowntimer_4: text = '9:50'
+51.9458 	EXP 	countdowntimer_4: text = '9:50'
+51.9626 	EXP 	countdowntimer_4: text = '9:50'
+51.9792 	EXP 	countdowntimer_4: text = '9:50'
+51.9958 	EXP 	countdowntimer_4: text = '9:50'
+52.0128 	EXP 	countdowntimer_4: text = '9:50'
+52.0296 	EXP 	countdowntimer_4: text = '9:50'
+52.0458 	EXP 	countdowntimer_4: text = '9:50'
+52.0622 	EXP 	countdowntimer_4: text = '9:50'
+52.0790 	EXP 	countdowntimer_4: text = '9:50'
+52.0963 	EXP 	countdowntimer_4: text = '9:50'
+52.1127 	EXP 	countdowntimer_4: text = '9:50'
+52.1297 	EXP 	countdowntimer_4: text = '9:50'
+52.1462 	EXP 	countdowntimer_4: text = '9:50'
+52.1625 	EXP 	countdowntimer_4: text = '9:50'
+52.1790 	EXP 	countdowntimer_4: text = '9:50'
+52.1957 	EXP 	countdowntimer_4: text = '9:50'
+52.2126 	EXP 	countdowntimer_4: text = '9:50'
+52.2292 	EXP 	countdowntimer_4: text = '9:50'
+52.2465 	EXP 	countdowntimer_4: text = '9:50'
+52.2625 	EXP 	countdowntimer_4: text = '9:50'
+52.2792 	EXP 	countdowntimer_4: text = '9:50'
+52.2955 	EXP 	countdowntimer_4: text = '9:50'
+52.2971 	DATA 	Keypress: a
+52.3131 	EXP 	text_13: text = 'a'
+52.3131 	EXP 	countdowntimer_4: text = '9:50'
+52.3296 	EXP 	countdowntimer_4: text = '9:50'
+52.3457 	EXP 	countdowntimer_4: text = '9:50'
+52.3628 	EXP 	countdowntimer_4: text = '9:50'
+52.3793 	EXP 	countdowntimer_4: text = '9:50'
+52.3959 	EXP 	countdowntimer_4: text = '9:50'
+52.4122 	EXP 	countdowntimer_4: text = '9:50'
+52.4160 	DATA 	Keypress: n
+52.4296 	EXP 	countdowntimer_4: text = '9:50'
+52.4462 	EXP 	text_13: text = 'an'
+52.4462 	EXP 	countdowntimer_4: text = '9:50'
+52.4625 	EXP 	countdowntimer_4: text = '9:50'
+52.4794 	EXP 	countdowntimer_4: text = '9:49'
+52.4809 	DATA 	Keypress: d
+52.4974 	EXP 	text_13: text = 'and'
+52.4974 	EXP 	countdowntimer_4: text = '9:49'
+52.5122 	EXP 	countdowntimer_4: text = '9:49'
+52.5289 	EXP 	countdowntimer_4: text = '9:49'
+52.5463 	EXP 	countdowntimer_4: text = '9:49'
+52.5628 	EXP 	countdowntimer_4: text = '9:49'
+52.5789 	EXP 	countdowntimer_4: text = '9:49'
+52.5963 	EXP 	countdowntimer_4: text = '9:49'
+52.6125 	EXP 	countdowntimer_4: text = '9:49'
+52.6293 	EXP 	countdowntimer_4: text = '9:49'
+52.6458 	EXP 	countdowntimer_4: text = '9:49'
+52.6628 	EXP 	countdowntimer_4: text = '9:49'
+52.6639 	DATA 	Keypress: return
+52.7068 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+52.7070 	EXP 	New trial (rep=0, index=0): None
+52.7188 	EXP 	countdowntimer_4: text = '9:49'
+52.7188 	EXP 	text_13: autoDraw = False
+52.7188 	EXP 	actualcount1: autoDraw = False
+52.7188 	EXP 	displayhcount_7: autoDraw = False
+52.7188 	EXP 	alien: autoDraw = False
+52.7188 	EXP 	border_text_4: autoDraw = False
+52.7188 	EXP 	countdowntimer_4: autoDraw = False
+52.7188 	EXP 	hostage_4: autoDraw = True
+52.7188 	EXP 	releasenotify: autoDraw = True
+53.2215 	EXP 	New trial (rep=4, index=0): None
+53.2371 	EXP 	hostage_4: autoDraw = False
+53.2371 	EXP 	releasenotify: autoDraw = False
+53.2371 	EXP 	text_13: text = ''
+53.2371 	EXP 	actualcount1: text = 2
+53.2371 	EXP 	text_13: autoDraw = True
+53.2371 	EXP 	actualcount1: autoDraw = True
+53.2371 	EXP 	displayhcount_7: autoDraw = True
+53.2371 	EXP 	alien: autoDraw = True
+53.2371 	EXP 	border_text_4: autoDraw = True
+53.2371 	EXP 	countdowntimer_4: autoDraw = True
+53.2371 	EXP 	countdowntimer_4: text = '9:49'
+53.2501 	EXP 	countdowntimer_4: text = '9:49'
+53.2651 	EXP 	countdowntimer_4: text = '9:49'
+53.2792 	EXP 	countdowntimer_4: text = '9:49'
+53.2955 	EXP 	countdowntimer_4: text = '9:49'
+53.3120 	EXP 	countdowntimer_4: text = '9:49'
+53.3293 	EXP 	countdowntimer_4: text = '9:49'
+53.3459 	EXP 	countdowntimer_4: text = '9:49'
+53.3621 	EXP 	countdowntimer_4: text = '9:49'
+53.3788 	EXP 	countdowntimer_4: text = '9:49'
+53.3954 	EXP 	countdowntimer_4: text = '9:49'
+53.4120 	EXP 	countdowntimer_4: text = '9:49'
+53.4288 	EXP 	countdowntimer_4: text = '9:49'
+53.4453 	EXP 	countdowntimer_4: text = '9:49'
+53.4619 	EXP 	countdowntimer_4: text = '9:49'
+53.4788 	EXP 	countdowntimer_4: text = '9:48'
+53.4957 	EXP 	countdowntimer_4: text = '9:48'
+53.5120 	EXP 	countdowntimer_4: text = '9:48'
+53.5288 	EXP 	countdowntimer_4: text = '9:48'
+53.5454 	EXP 	countdowntimer_4: text = '9:48'
+53.5620 	EXP 	countdowntimer_4: text = '9:48'
+53.5787 	EXP 	countdowntimer_4: text = '9:48'
+53.5955 	EXP 	countdowntimer_4: text = '9:48'
+53.6122 	EXP 	countdowntimer_4: text = '9:48'
+53.6287 	EXP 	countdowntimer_4: text = '9:48'
+53.6453 	EXP 	countdowntimer_4: text = '9:48'
+53.6625 	EXP 	countdowntimer_4: text = '9:48'
+53.6789 	EXP 	countdowntimer_4: text = '9:48'
+53.6953 	EXP 	countdowntimer_4: text = '9:48'
+53.7125 	EXP 	countdowntimer_4: text = '9:48'
+53.7287 	EXP 	countdowntimer_4: text = '9:48'
+53.7453 	EXP 	countdowntimer_4: text = '9:48'
+53.7620 	EXP 	countdowntimer_4: text = '9:48'
+53.7787 	EXP 	countdowntimer_4: text = '9:48'
+53.7953 	EXP 	countdowntimer_4: text = '9:48'
+53.8123 	EXP 	countdowntimer_4: text = '9:48'
+53.8290 	EXP 	countdowntimer_4: text = '9:48'
+53.8454 	EXP 	countdowntimer_4: text = '9:48'
+53.8620 	EXP 	countdowntimer_4: text = '9:48'
+53.8786 	EXP 	countdowntimer_4: text = '9:48'
+53.8955 	EXP 	countdowntimer_4: text = '9:48'
+53.8969 	DATA 	Keypress: i
+53.9123 	EXP 	text_13: text = 'i'
+53.9123 	EXP 	countdowntimer_4: text = '9:48'
+53.9290 	EXP 	countdowntimer_4: text = '9:48'
+53.9457 	EXP 	countdowntimer_4: text = '9:48'
+53.9622 	EXP 	countdowntimer_4: text = '9:48'
+53.9634 	DATA 	Keypress: f
+53.9787 	EXP 	text_13: text = 'if'
+53.9787 	EXP 	countdowntimer_4: text = '9:48'
+53.9954 	EXP 	countdowntimer_4: text = '9:48'
+54.0120 	EXP 	countdowntimer_4: text = '9:48'
+54.0287 	EXP 	countdowntimer_4: text = '9:48'
+54.0456 	EXP 	countdowntimer_4: text = '9:48'
+54.0622 	EXP 	countdowntimer_4: text = '9:48'
+54.0787 	EXP 	countdowntimer_4: text = '9:48'
+54.0955 	EXP 	countdowntimer_4: text = '9:48'
+54.1119 	EXP 	countdowntimer_4: text = '9:48'
+54.1286 	EXP 	countdowntimer_4: text = '9:48'
+54.1454 	EXP 	countdowntimer_4: text = '9:48'
+54.1621 	EXP 	countdowntimer_4: text = '9:48'
+54.1787 	EXP 	countdowntimer_4: text = '9:48'
+54.1796 	DATA 	Keypress: return
+54.2214 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+54.2261 	EXP 	New trial (rep=5, index=0): None
+54.2378 	EXP 	countdowntimer_4: text = '9:48'
+54.2378 	EXP 	text_13: autoDraw = False
+54.2378 	EXP 	actualcount1: autoDraw = False
+54.2378 	EXP 	displayhcount_7: autoDraw = False
+54.2378 	EXP 	alien: autoDraw = False
+54.2378 	EXP 	border_text_4: autoDraw = False
+54.2378 	EXP 	countdowntimer_4: autoDraw = False
+54.2378 	EXP 	text_13: text = ''
+54.2378 	EXP 	actualcount1: text = 2
+54.2378 	EXP 	text_13: autoDraw = True
+54.2378 	EXP 	actualcount1: autoDraw = True
+54.2378 	EXP 	displayhcount_7: autoDraw = True
+54.2378 	EXP 	alien: autoDraw = True
+54.2378 	EXP 	border_text_4: autoDraw = True
+54.2378 	EXP 	countdowntimer_4: autoDraw = True
+54.2378 	EXP 	countdowntimer_4: text = '9:48'
+54.2518 	EXP 	countdowntimer_4: text = '9:48'
+54.2675 	EXP 	countdowntimer_4: text = '9:48'
+54.2817 	EXP 	countdowntimer_4: text = '9:48'
+54.2963 	EXP 	countdowntimer_4: text = '9:48'
+54.3129 	EXP 	countdowntimer_4: text = '9:48'
+54.3292 	EXP 	countdowntimer_4: text = '9:48'
+54.3463 	EXP 	countdowntimer_4: text = '9:48'
+54.3627 	EXP 	countdowntimer_4: text = '9:48'
+54.3794 	EXP 	countdowntimer_4: text = '9:48'
+54.4023 	EXP 	countdowntimer_4: text = '9:48'
+54.4155 	EXP 	countdowntimer_4: text = '9:48'
+54.4314 	EXP 	countdowntimer_4: text = '9:48'
+54.4473 	EXP 	countdowntimer_4: text = '9:48'
+54.4630 	EXP 	countdowntimer_4: text = '9:48'
+54.4801 	EXP 	countdowntimer_4: text = '9:47'
+54.4967 	EXP 	countdowntimer_4: text = '9:47'
+54.5130 	EXP 	countdowntimer_4: text = '9:47'
+54.5293 	EXP 	countdowntimer_4: text = '9:47'
+54.5460 	EXP 	countdowntimer_4: text = '9:47'
+54.5626 	EXP 	countdowntimer_4: text = '9:47'
+54.5797 	EXP 	countdowntimer_4: text = '9:47'
+54.5962 	EXP 	countdowntimer_4: text = '9:47'
+54.6129 	EXP 	countdowntimer_4: text = '9:47'
+54.6296 	EXP 	countdowntimer_4: text = '9:47'
+54.6457 	EXP 	countdowntimer_4: text = '9:47'
+54.6623 	EXP 	countdowntimer_4: text = '9:47'
+54.6792 	EXP 	countdowntimer_4: text = '9:47'
+54.6957 	EXP 	countdowntimer_4: text = '9:47'
+54.7124 	EXP 	countdowntimer_4: text = '9:47'
+54.7289 	EXP 	countdowntimer_4: text = '9:47'
+54.7458 	EXP 	countdowntimer_4: text = '9:47'
+54.7621 	EXP 	countdowntimer_4: text = '9:47'
+54.7793 	EXP 	countdowntimer_4: text = '9:47'
+54.7961 	EXP 	countdowntimer_4: text = '9:47'
+54.8122 	EXP 	countdowntimer_4: text = '9:47'
+54.8137 	DATA 	Keypress: w
+54.8302 	EXP 	text_13: text = 'w'
+54.8302 	EXP 	countdowntimer_4: text = '9:47'
+54.8460 	EXP 	countdowntimer_4: text = '9:47'
+54.8624 	EXP 	countdowntimer_4: text = '9:47'
+54.8791 	EXP 	countdowntimer_4: text = '9:47'
+54.8815 	DATA 	Keypress: h
+54.8987 	EXP 	text_13: text = 'wh'
+54.8987 	EXP 	countdowntimer_4: text = '9:47'
+54.9133 	EXP 	countdowntimer_4: text = '9:47'
+54.9292 	EXP 	countdowntimer_4: text = '9:47'
+54.9455 	EXP 	countdowntimer_4: text = '9:47'
+54.9628 	EXP 	countdowntimer_4: text = '9:47'
+54.9790 	EXP 	countdowntimer_4: text = '9:47'
+54.9804 	DATA 	Keypress: e
+54.9962 	EXP 	text_13: text = 'whe'
+54.9962 	EXP 	countdowntimer_4: text = '9:47'
+55.0121 	EXP 	countdowntimer_4: text = '9:47'
+55.0293 	EXP 	countdowntimer_4: text = '9:47'
+55.0458 	EXP 	countdowntimer_4: text = '9:47'
+55.0626 	EXP 	countdowntimer_4: text = '9:47'
+55.0645 	DATA 	Keypress: n
+55.0799 	EXP 	text_13: text = 'when'
+55.0799 	EXP 	countdowntimer_4: text = '9:47'
+55.0955 	EXP 	countdowntimer_4: text = '9:47'
+55.1120 	EXP 	countdowntimer_4: text = '9:47'
+55.1294 	EXP 	countdowntimer_4: text = '9:47'
+55.1458 	EXP 	countdowntimer_4: text = '9:47'
+55.1626 	EXP 	countdowntimer_4: text = '9:47'
+55.1795 	EXP 	countdowntimer_4: text = '9:47'
+55.1957 	EXP 	countdowntimer_4: text = '9:47'
+55.2122 	EXP 	countdowntimer_4: text = '9:47'
+55.2289 	EXP 	countdowntimer_4: text = '9:47'
+55.2461 	EXP 	countdowntimer_4: text = '9:47'
+55.2624 	EXP 	countdowntimer_4: text = '9:47'
+55.2788 	EXP 	countdowntimer_4: text = '9:47'
+55.2799 	DATA 	Keypress: return
+55.3231 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+55.3281 	EXP 	New trial (rep=6, index=0): None
+55.3405 	EXP 	countdowntimer_4: text = '9:47'
+55.3405 	EXP 	text_13: autoDraw = False
+55.3405 	EXP 	actualcount1: autoDraw = False
+55.3405 	EXP 	displayhcount_7: autoDraw = False
+55.3405 	EXP 	alien: autoDraw = False
+55.3405 	EXP 	border_text_4: autoDraw = False
+55.3405 	EXP 	countdowntimer_4: autoDraw = False
+55.3405 	EXP 	text_13: text = ''
+55.3405 	EXP 	actualcount1: text = 2
+55.3405 	EXP 	text_13: autoDraw = True
+55.3405 	EXP 	actualcount1: autoDraw = True
+55.3405 	EXP 	displayhcount_7: autoDraw = True
+55.3405 	EXP 	alien: autoDraw = True
+55.3405 	EXP 	border_text_4: autoDraw = True
+55.3405 	EXP 	countdowntimer_4: autoDraw = True
+55.3405 	EXP 	countdowntimer_4: text = '9:47'
+55.3540 	EXP 	countdowntimer_4: text = '9:47'
+55.3676 	EXP 	countdowntimer_4: text = '9:47'
+55.3825 	EXP 	countdowntimer_4: text = '9:47'
+55.3965 	EXP 	countdowntimer_4: text = '9:47'
+55.4125 	EXP 	countdowntimer_4: text = '9:47'
+55.4290 	EXP 	countdowntimer_4: text = '9:47'
+55.4455 	EXP 	countdowntimer_4: text = '9:47'
+55.4626 	EXP 	countdowntimer_4: text = '9:47'
+55.4795 	EXP 	countdowntimer_4: text = '9:46'
+55.4959 	EXP 	countdowntimer_4: text = '9:46'
+55.5130 	EXP 	countdowntimer_4: text = '9:46'
+55.5288 	EXP 	countdowntimer_4: text = '9:46'
+55.5302 	DATA 	Keypress: w
+55.5462 	EXP 	text_13: text = 'w'
+55.5462 	EXP 	countdowntimer_4: text = '9:46'
+55.5621 	EXP 	countdowntimer_4: text = '9:46'
+55.5790 	EXP 	countdowntimer_4: text = '9:46'
+55.5803 	DATA 	Keypress: h
+55.5960 	EXP 	text_13: text = 'wh'
+55.5960 	EXP 	countdowntimer_4: text = '9:46'
+55.6126 	EXP 	countdowntimer_4: text = '9:46'
+55.6290 	EXP 	countdowntimer_4: text = '9:46'
+55.6454 	EXP 	countdowntimer_4: text = '9:46'
+55.6624 	EXP 	countdowntimer_4: text = '9:46'
+55.6791 	EXP 	countdowntimer_4: text = '9:46'
+55.6808 	DATA 	Keypress: i
+55.6965 	EXP 	text_13: text = 'whi'
+55.6965 	EXP 	countdowntimer_4: text = '9:46'
+55.7130 	EXP 	countdowntimer_4: text = '9:46'
+55.7291 	EXP 	countdowntimer_4: text = '9:46'
+55.7456 	EXP 	countdowntimer_4: text = '9:46'
+55.7623 	EXP 	countdowntimer_4: text = '9:46'
+55.7788 	EXP 	countdowntimer_4: text = '9:46'
+55.7955 	EXP 	countdowntimer_4: text = '9:46'
+55.8121 	EXP 	countdowntimer_4: text = '9:46'
+55.8292 	EXP 	countdowntimer_4: text = '9:46'
+55.8455 	EXP 	countdowntimer_4: text = '9:46'
+55.8620 	EXP 	countdowntimer_4: text = '9:46'
+55.8634 	DATA 	Keypress: l
+55.8792 	EXP 	text_13: text = 'whil'
+55.8792 	EXP 	countdowntimer_4: text = '9:46'
+55.8954 	EXP 	countdowntimer_4: text = '9:46'
+55.9125 	EXP 	countdowntimer_4: text = '9:46'
+55.9292 	EXP 	countdowntimer_4: text = '9:46'
+55.9462 	EXP 	countdowntimer_4: text = '9:46'
+55.9628 	EXP 	countdowntimer_4: text = '9:46'
+55.9643 	DATA 	Keypress: e
+55.9811 	EXP 	text_13: text = 'while'
+55.9811 	EXP 	countdowntimer_4: text = '9:46'
+55.9954 	EXP 	countdowntimer_4: text = '9:46'
+56.0123 	EXP 	countdowntimer_4: text = '9:46'
+56.0290 	EXP 	countdowntimer_4: text = '9:46'
+56.0458 	EXP 	countdowntimer_4: text = '9:46'
+56.0631 	EXP 	countdowntimer_4: text = '9:46'
+56.0790 	EXP 	countdowntimer_4: text = '9:46'
+56.0954 	EXP 	countdowntimer_4: text = '9:46'
+56.0995 	DATA 	Keypress: return
+56.1119 	EXP 	countdowntimer_4: text = '9:46'
+56.1555 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+56.1606 	EXP 	New trial (rep=7, index=0): None
+56.1731 	EXP 	countdowntimer_4: text = '9:46'
+56.1731 	EXP 	text_13: autoDraw = False
+56.1731 	EXP 	actualcount1: autoDraw = False
+56.1731 	EXP 	displayhcount_7: autoDraw = False
+56.1731 	EXP 	alien: autoDraw = False
+56.1731 	EXP 	border_text_4: autoDraw = False
+56.1731 	EXP 	countdowntimer_4: autoDraw = False
+56.1731 	EXP 	text_13: text = ''
+56.1731 	EXP 	actualcount1: text = 2
+56.1731 	EXP 	text_13: autoDraw = True
+56.1731 	EXP 	actualcount1: autoDraw = True
+56.1731 	EXP 	displayhcount_7: autoDraw = True
+56.1731 	EXP 	alien: autoDraw = True
+56.1731 	EXP 	border_text_4: autoDraw = True
+56.1731 	EXP 	countdowntimer_4: autoDraw = True
+56.1731 	EXP 	countdowntimer_4: text = '9:46'
+56.1867 	EXP 	countdowntimer_4: text = '9:46'
+56.2000 	EXP 	countdowntimer_4: text = '9:46'
+56.2154 	EXP 	countdowntimer_4: text = '9:46'
+56.2297 	EXP 	countdowntimer_4: text = '9:46'
+56.2456 	EXP 	countdowntimer_4: text = '9:46'
+56.2628 	EXP 	countdowntimer_4: text = '9:46'
+56.2793 	EXP 	countdowntimer_4: text = '9:46'
+56.2961 	EXP 	countdowntimer_4: text = '9:46'
+56.3125 	EXP 	countdowntimer_4: text = '9:46'
+56.3292 	EXP 	countdowntimer_4: text = '9:46'
+56.3456 	EXP 	countdowntimer_4: text = '9:46'
+56.3624 	EXP 	countdowntimer_4: text = '9:46'
+56.3792 	EXP 	countdowntimer_4: text = '9:46'
+56.3967 	EXP 	countdowntimer_4: text = '9:46'
+56.4127 	EXP 	countdowntimer_4: text = '9:46'
+56.4298 	EXP 	countdowntimer_4: text = '9:46'
+56.4463 	EXP 	countdowntimer_4: text = '9:46'
+56.4625 	EXP 	countdowntimer_4: text = '9:46'
+56.4812 	EXP 	countdowntimer_4: text = '9:45'
+56.4967 	EXP 	countdowntimer_4: text = '9:45'
+56.5127 	EXP 	countdowntimer_4: text = '9:45'
+56.5295 	EXP 	countdowntimer_4: text = '9:45'
+56.5462 	EXP 	countdowntimer_4: text = '9:45'
+56.5628 	EXP 	countdowntimer_4: text = '9:45'
+56.5788 	EXP 	countdowntimer_4: text = '9:45'
+56.5954 	EXP 	countdowntimer_4: text = '9:45'
+56.6124 	EXP 	countdowntimer_4: text = '9:45'
+56.6293 	EXP 	countdowntimer_4: text = '9:45'
+56.6461 	EXP 	countdowntimer_4: text = '9:45'
+56.6627 	EXP 	countdowntimer_4: text = '9:45'
+56.6791 	EXP 	countdowntimer_4: text = '9:45'
+56.6955 	EXP 	countdowntimer_4: text = '9:45'
+56.7123 	EXP 	countdowntimer_4: text = '9:45'
+56.7290 	EXP 	countdowntimer_4: text = '9:45'
+56.7456 	EXP 	countdowntimer_4: text = '9:45'
+56.7628 	EXP 	countdowntimer_4: text = '9:45'
+56.7793 	EXP 	countdowntimer_4: text = '9:45'
+56.7959 	EXP 	countdowntimer_4: text = '9:45'
+56.8124 	EXP 	countdowntimer_4: text = '9:45'
+56.8291 	EXP 	countdowntimer_4: text = '9:45'
+56.8460 	EXP 	countdowntimer_4: text = '9:45'
+56.8628 	EXP 	countdowntimer_4: text = '9:45'
+56.8795 	EXP 	countdowntimer_4: text = '9:45'
+56.8958 	EXP 	countdowntimer_4: text = '9:45'
+56.9123 	EXP 	countdowntimer_4: text = '9:45'
+56.9291 	EXP 	countdowntimer_4: text = '9:45'
+56.9458 	EXP 	countdowntimer_4: text = '9:45'
+56.9625 	EXP 	countdowntimer_4: text = '9:45'
+56.9793 	EXP 	countdowntimer_4: text = '9:45'
+56.9962 	EXP 	countdowntimer_4: text = '9:45'
+57.0124 	EXP 	countdowntimer_4: text = '9:45'
+57.0292 	EXP 	countdowntimer_4: text = '9:45'
+57.0456 	EXP 	countdowntimer_4: text = '9:45'
+57.0625 	EXP 	countdowntimer_4: text = '9:45'
+57.0791 	EXP 	countdowntimer_4: text = '9:45'
+57.0956 	EXP 	countdowntimer_4: text = '9:45'
+57.1127 	EXP 	countdowntimer_4: text = '9:45'
+57.1293 	EXP 	countdowntimer_4: text = '9:45'
+57.1458 	EXP 	countdowntimer_4: text = '9:45'
+57.1625 	EXP 	countdowntimer_4: text = '9:45'
+57.1790 	EXP 	countdowntimer_4: text = '9:45'
+57.1962 	EXP 	countdowntimer_4: text = '9:45'
+57.2128 	EXP 	countdowntimer_4: text = '9:45'
+57.2295 	EXP 	countdowntimer_4: text = '9:45'
+57.2458 	EXP 	countdowntimer_4: text = '9:45'
+57.2623 	EXP 	countdowntimer_4: text = '9:45'
+57.2791 	EXP 	countdowntimer_4: text = '9:45'
+57.2959 	EXP 	countdowntimer_4: text = '9:45'
+57.3124 	EXP 	countdowntimer_4: text = '9:45'
+57.3295 	EXP 	countdowntimer_4: text = '9:45'
+57.3461 	EXP 	countdowntimer_4: text = '9:45'
+57.3625 	EXP 	countdowntimer_4: text = '9:45'
+57.3789 	EXP 	countdowntimer_4: text = '9:45'
+57.3956 	EXP 	countdowntimer_4: text = '9:45'
+57.4123 	EXP 	countdowntimer_4: text = '9:45'
+57.4290 	EXP 	countdowntimer_4: text = '9:45'
+57.4457 	EXP 	countdowntimer_4: text = '9:45'
+57.4625 	EXP 	countdowntimer_4: text = '9:45'
+57.4799 	EXP 	countdowntimer_4: text = '9:44'
+57.4955 	EXP 	countdowntimer_4: text = '9:44'
+57.5124 	EXP 	countdowntimer_4: text = '9:44'
+57.5292 	EXP 	countdowntimer_4: text = '9:44'
+57.5457 	EXP 	countdowntimer_4: text = '9:44'
+57.5625 	EXP 	countdowntimer_4: text = '9:44'
+57.5791 	EXP 	countdowntimer_4: text = '9:44'
+57.5958 	EXP 	countdowntimer_4: text = '9:44'
+57.6124 	EXP 	countdowntimer_4: text = '9:44'
+57.6291 	EXP 	countdowntimer_4: text = '9:44'
+57.6458 	EXP 	countdowntimer_4: text = '9:44'
+57.6625 	EXP 	countdowntimer_4: text = '9:44'
+57.6793 	EXP 	countdowntimer_4: text = '9:44'
+57.6958 	EXP 	countdowntimer_4: text = '9:44'
+57.7123 	EXP 	countdowntimer_4: text = '9:44'
+57.7291 	EXP 	countdowntimer_4: text = '9:44'
+57.7459 	EXP 	countdowntimer_4: text = '9:44'
+57.7625 	EXP 	countdowntimer_4: text = '9:44'
+57.7792 	EXP 	countdowntimer_4: text = '9:44'
+57.7960 	EXP 	countdowntimer_4: text = '9:44'
+57.8125 	EXP 	countdowntimer_4: text = '9:44'
+57.8293 	EXP 	countdowntimer_4: text = '9:44'
+57.8460 	EXP 	countdowntimer_4: text = '9:44'
+57.8626 	EXP 	countdowntimer_4: text = '9:44'
+57.8793 	EXP 	countdowntimer_4: text = '9:44'
+57.8961 	EXP 	countdowntimer_4: text = '9:44'
+57.9125 	EXP 	countdowntimer_4: text = '9:44'
+57.9291 	EXP 	countdowntimer_4: text = '9:44'
+57.9459 	EXP 	countdowntimer_4: text = '9:44'
+57.9628 	EXP 	countdowntimer_4: text = '9:44'
+57.9791 	EXP 	countdowntimer_4: text = '9:44'
+57.9961 	EXP 	countdowntimer_4: text = '9:44'
+58.0127 	EXP 	countdowntimer_4: text = '9:44'
+58.0292 	EXP 	countdowntimer_4: text = '9:44'
+58.0459 	EXP 	countdowntimer_4: text = '9:44'
+58.0627 	EXP 	countdowntimer_4: text = '9:44'
+58.0795 	EXP 	countdowntimer_4: text = '9:44'
+58.0960 	EXP 	countdowntimer_4: text = '9:44'
+58.1126 	EXP 	countdowntimer_4: text = '9:44'
+58.1292 	EXP 	countdowntimer_4: text = '9:44'
+58.1458 	EXP 	countdowntimer_4: text = '9:44'
+58.1624 	EXP 	countdowntimer_4: text = '9:44'
+58.1792 	EXP 	countdowntimer_4: text = '9:44'
+58.1958 	EXP 	countdowntimer_4: text = '9:44'
+58.2127 	EXP 	countdowntimer_4: text = '9:44'
+58.2293 	EXP 	countdowntimer_4: text = '9:44'
+58.2459 	EXP 	countdowntimer_4: text = '9:44'
+58.2624 	EXP 	countdowntimer_4: text = '9:44'
+58.2793 	EXP 	countdowntimer_4: text = '9:44'
+58.2960 	EXP 	countdowntimer_4: text = '9:44'
+58.3127 	EXP 	countdowntimer_4: text = '9:44'
+58.3291 	EXP 	countdowntimer_4: text = '9:44'
+58.3460 	EXP 	countdowntimer_4: text = '9:44'
+58.3625 	EXP 	countdowntimer_4: text = '9:44'
+58.3791 	EXP 	countdowntimer_4: text = '9:44'
+58.3957 	EXP 	countdowntimer_4: text = '9:44'
+58.4125 	EXP 	countdowntimer_4: text = '9:44'
+58.4291 	EXP 	countdowntimer_4: text = '9:44'
+58.4457 	EXP 	countdowntimer_4: text = '9:44'
+58.4625 	EXP 	countdowntimer_4: text = '9:44'
+58.4798 	EXP 	countdowntimer_4: text = '9:43'
+58.4956 	EXP 	countdowntimer_4: text = '9:43'
+58.5124 	EXP 	countdowntimer_4: text = '9:43'
+58.5293 	EXP 	countdowntimer_4: text = '9:43'
+58.5460 	EXP 	countdowntimer_4: text = '9:43'
+58.5628 	EXP 	countdowntimer_4: text = '9:43'
+58.5793 	EXP 	countdowntimer_4: text = '9:43'
+58.5958 	EXP 	countdowntimer_4: text = '9:43'
+58.6126 	EXP 	countdowntimer_4: text = '9:43'
+58.6291 	EXP 	countdowntimer_4: text = '9:43'
+58.6458 	EXP 	countdowntimer_4: text = '9:43'
+58.6629 	EXP 	countdowntimer_4: text = '9:43'
+58.6792 	EXP 	countdowntimer_4: text = '9:43'
+58.6957 	EXP 	countdowntimer_4: text = '9:43'
+58.7123 	EXP 	countdowntimer_4: text = '9:43'
+58.7292 	EXP 	countdowntimer_4: text = '9:43'
+58.7458 	EXP 	countdowntimer_4: text = '9:43'
+58.7623 	EXP 	countdowntimer_4: text = '9:43'
+58.7794 	EXP 	countdowntimer_4: text = '9:43'
+58.7958 	EXP 	countdowntimer_4: text = '9:43'
+58.8125 	EXP 	countdowntimer_4: text = '9:43'
+58.8292 	EXP 	countdowntimer_4: text = '9:43'
+58.8457 	EXP 	countdowntimer_4: text = '9:43'
+58.8622 	EXP 	countdowntimer_4: text = '9:43'
+58.8789 	EXP 	countdowntimer_4: text = '9:43'
+58.8960 	EXP 	countdowntimer_4: text = '9:43'
+58.9127 	EXP 	countdowntimer_4: text = '9:43'
+58.9293 	EXP 	countdowntimer_4: text = '9:43'
+58.9456 	EXP 	countdowntimer_4: text = '9:43'
+58.9622 	EXP 	countdowntimer_4: text = '9:43'
+58.9791 	EXP 	countdowntimer_4: text = '9:43'
+58.9957 	EXP 	countdowntimer_4: text = '9:43'
+59.0128 	EXP 	countdowntimer_4: text = '9:43'
+59.0293 	EXP 	countdowntimer_4: text = '9:43'
+59.0459 	EXP 	countdowntimer_4: text = '9:43'
+59.0622 	EXP 	countdowntimer_4: text = '9:43'
+59.0793 	EXP 	countdowntimer_4: text = '9:43'
+59.0960 	EXP 	countdowntimer_4: text = '9:43'
+59.1126 	EXP 	countdowntimer_4: text = '9:43'
+59.1295 	EXP 	countdowntimer_4: text = '9:43'
+59.1460 	EXP 	countdowntimer_4: text = '9:43'
+59.1626 	EXP 	countdowntimer_4: text = '9:43'
+59.1794 	EXP 	countdowntimer_4: text = '9:43'
+59.1959 	EXP 	countdowntimer_4: text = '9:43'
+59.2127 	EXP 	countdowntimer_4: text = '9:43'
+59.2290 	EXP 	countdowntimer_4: text = '9:43'
+59.2460 	EXP 	countdowntimer_4: text = '9:43'
+59.2624 	EXP 	countdowntimer_4: text = '9:43'
+59.2790 	EXP 	countdowntimer_4: text = '9:43'
+59.2956 	EXP 	countdowntimer_4: text = '9:43'
+59.3126 	EXP 	countdowntimer_4: text = '9:43'
+59.3290 	EXP 	countdowntimer_4: text = '9:43'
+59.3459 	EXP 	countdowntimer_4: text = '9:43'
+59.3626 	EXP 	countdowntimer_4: text = '9:43'
+59.3790 	EXP 	countdowntimer_4: text = '9:43'
+59.3957 	EXP 	countdowntimer_4: text = '9:43'
+59.4128 	EXP 	countdowntimer_4: text = '9:43'
+59.4294 	EXP 	countdowntimer_4: text = '9:43'
+59.4459 	EXP 	countdowntimer_4: text = '9:43'
+59.4626 	EXP 	countdowntimer_4: text = '9:43'
+59.4799 	EXP 	countdowntimer_4: text = '9:42'
+59.4957 	EXP 	countdowntimer_4: text = '9:42'
+59.5124 	EXP 	countdowntimer_4: text = '9:42'
+59.5292 	EXP 	countdowntimer_4: text = '9:42'
+59.5457 	EXP 	countdowntimer_4: text = '9:42'
+59.5625 	EXP 	countdowntimer_4: text = '9:42'
+59.5793 	EXP 	countdowntimer_4: text = '9:42'
+59.5955 	EXP 	countdowntimer_4: text = '9:42'
+59.6120 	EXP 	countdowntimer_4: text = '9:42'
+59.6289 	EXP 	countdowntimer_4: text = '9:42'
+59.6457 	EXP 	countdowntimer_4: text = '9:42'
+59.6627 	EXP 	countdowntimer_4: text = '9:42'
+59.6795 	EXP 	countdowntimer_4: text = '9:42'
+59.6960 	EXP 	countdowntimer_4: text = '9:42'
+59.7124 	EXP 	countdowntimer_4: text = '9:42'
+59.7290 	EXP 	countdowntimer_4: text = '9:42'
+59.7457 	EXP 	countdowntimer_4: text = '9:42'
+59.7623 	EXP 	countdowntimer_4: text = '9:42'
+59.7792 	EXP 	countdowntimer_4: text = '9:42'
+59.7958 	EXP 	countdowntimer_4: text = '9:42'
+59.8126 	EXP 	countdowntimer_4: text = '9:42'
+59.8292 	EXP 	countdowntimer_4: text = '9:42'
+59.8452 	EXP 	countdowntimer_4: text = '9:42'
+59.8617 	EXP 	countdowntimer_4: text = '9:42'
+59.8784 	EXP 	countdowntimer_4: text = '9:42'
+59.8953 	EXP 	countdowntimer_4: text = '9:42'
+59.9120 	EXP 	countdowntimer_4: text = '9:42'
+59.9291 	EXP 	countdowntimer_4: text = '9:42'
+59.9453 	EXP 	countdowntimer_4: text = '9:42'
+59.9618 	EXP 	countdowntimer_4: text = '9:42'
+59.9805 	EXP 	countdowntimer_4: text = '9:42'
+59.9951 	EXP 	countdowntimer_4: text = '9:42'
+60.0117 	EXP 	countdowntimer_4: text = '9:42'
+60.0285 	EXP 	countdowntimer_4: text = '9:42'
+60.0452 	EXP 	countdowntimer_4: text = '9:42'
+60.0616 	EXP 	countdowntimer_4: text = '9:42'
+60.0788 	EXP 	countdowntimer_4: text = '9:42'
+60.0959 	EXP 	countdowntimer_4: text = '9:42'
+60.1142 	EXP 	countdowntimer_4: text = '9:42'
+60.1290 	EXP 	countdowntimer_4: text = '9:42'
+60.1457 	EXP 	countdowntimer_4: text = '9:42'
+60.1625 	EXP 	countdowntimer_4: text = '9:42'
+60.1790 	EXP 	countdowntimer_4: text = '9:42'
+60.1959 	EXP 	countdowntimer_4: text = '9:42'
+60.2129 	EXP 	countdowntimer_4: text = '9:42'
+60.2291 	EXP 	countdowntimer_4: text = '9:42'
+60.2459 	EXP 	countdowntimer_4: text = '9:42'
+60.2625 	EXP 	countdowntimer_4: text = '9:42'
+60.2791 	EXP 	countdowntimer_4: text = '9:42'
+60.2958 	EXP 	countdowntimer_4: text = '9:42'
+60.3125 	EXP 	countdowntimer_4: text = '9:42'
+60.3292 	EXP 	countdowntimer_4: text = '9:42'
+60.3457 	EXP 	countdowntimer_4: text = '9:42'
+60.3624 	EXP 	countdowntimer_4: text = '9:42'
+60.3793 	EXP 	countdowntimer_4: text = '9:42'
+60.3958 	EXP 	countdowntimer_4: text = '9:42'
+60.4125 	EXP 	countdowntimer_4: text = '9:42'
+60.4293 	EXP 	countdowntimer_4: text = '9:42'
+60.4460 	EXP 	countdowntimer_4: text = '9:42'
+60.4626 	EXP 	countdowntimer_4: text = '9:42'
+60.4799 	EXP 	countdowntimer_4: text = '9:41'
+60.4955 	EXP 	countdowntimer_4: text = '9:41'
+60.5125 	EXP 	countdowntimer_4: text = '9:41'
+60.5292 	EXP 	countdowntimer_4: text = '9:41'
+60.5458 	EXP 	countdowntimer_4: text = '9:41'
+60.5625 	EXP 	countdowntimer_4: text = '9:41'
+60.5792 	EXP 	countdowntimer_4: text = '9:41'
+60.5959 	EXP 	countdowntimer_4: text = '9:41'
+60.6124 	EXP 	countdowntimer_4: text = '9:41'
+60.6288 	EXP 	countdowntimer_4: text = '9:41'
+60.6457 	EXP 	countdowntimer_4: text = '9:41'
+60.6627 	EXP 	countdowntimer_4: text = '9:41'
+60.6793 	EXP 	countdowntimer_4: text = '9:41'
+60.6962 	EXP 	countdowntimer_4: text = '9:41'
+60.7126 	EXP 	countdowntimer_4: text = '9:41'
+60.7293 	EXP 	countdowntimer_4: text = '9:41'
+60.7456 	EXP 	countdowntimer_4: text = '9:41'
+60.7621 	EXP 	countdowntimer_4: text = '9:41'
+60.7795 	EXP 	countdowntimer_4: text = '9:41'
+60.7958 	EXP 	countdowntimer_4: text = '9:41'
+60.8125 	EXP 	countdowntimer_4: text = '9:41'
+60.8291 	EXP 	countdowntimer_4: text = '9:41'
+60.8458 	EXP 	countdowntimer_4: text = '9:41'
+60.8627 	EXP 	countdowntimer_4: text = '9:41'
+60.8789 	EXP 	countdowntimer_4: text = '9:41'
+60.8959 	EXP 	countdowntimer_4: text = '9:41'
+60.9128 	EXP 	countdowntimer_4: text = '9:41'
+60.9295 	EXP 	countdowntimer_4: text = '9:41'
+60.9458 	EXP 	countdowntimer_4: text = '9:41'
+60.9623 	EXP 	countdowntimer_4: text = '9:41'
+60.9789 	EXP 	countdowntimer_4: text = '9:41'
+60.9958 	EXP 	countdowntimer_4: text = '9:41'
+61.0125 	EXP 	countdowntimer_4: text = '9:41'
+61.0292 	EXP 	countdowntimer_4: text = '9:41'
+61.0456 	EXP 	countdowntimer_4: text = '9:41'
+61.0625 	EXP 	countdowntimer_4: text = '9:41'
+61.0791 	EXP 	countdowntimer_4: text = '9:41'
+61.0959 	EXP 	countdowntimer_4: text = '9:41'
+61.1127 	EXP 	countdowntimer_4: text = '9:41'
+61.1293 	EXP 	countdowntimer_4: text = '9:41'
+61.1463 	EXP 	countdowntimer_4: text = '9:41'
+61.1629 	EXP 	countdowntimer_4: text = '9:41'
+61.1791 	EXP 	countdowntimer_4: text = '9:41'
+61.1957 	EXP 	countdowntimer_4: text = '9:41'
+61.2123 	EXP 	countdowntimer_4: text = '9:41'
+61.2291 	EXP 	countdowntimer_4: text = '9:41'
+61.2457 	EXP 	countdowntimer_4: text = '9:41'
+61.2627 	EXP 	countdowntimer_4: text = '9:41'
+61.2789 	EXP 	countdowntimer_4: text = '9:41'
+61.2958 	EXP 	countdowntimer_4: text = '9:41'
+61.3124 	EXP 	countdowntimer_4: text = '9:41'
+61.3292 	EXP 	countdowntimer_4: text = '9:41'
+61.3458 	EXP 	countdowntimer_4: text = '9:41'
+61.3622 	EXP 	countdowntimer_4: text = '9:41'
+61.3792 	EXP 	countdowntimer_4: text = '9:41'
+61.3959 	EXP 	countdowntimer_4: text = '9:41'
+61.4126 	EXP 	countdowntimer_4: text = '9:41'
+61.4292 	EXP 	countdowntimer_4: text = '9:41'
+61.4457 	EXP 	countdowntimer_4: text = '9:41'
+61.4627 	EXP 	countdowntimer_4: text = '9:41'
+61.4796 	EXP 	countdowntimer_4: text = '9:40'
+61.4958 	EXP 	countdowntimer_4: text = '9:40'
+61.5125 	EXP 	countdowntimer_4: text = '9:40'
+61.5291 	EXP 	countdowntimer_4: text = '9:40'
+61.5458 	EXP 	countdowntimer_4: text = '9:40'
+61.5624 	EXP 	countdowntimer_4: text = '9:40'
+61.5792 	EXP 	countdowntimer_4: text = '9:40'
+61.5958 	EXP 	countdowntimer_4: text = '9:40'
+61.6126 	EXP 	countdowntimer_4: text = '9:40'
+61.6290 	EXP 	countdowntimer_4: text = '9:40'
+61.6458 	EXP 	countdowntimer_4: text = '9:40'
+61.6626 	EXP 	countdowntimer_4: text = '9:40'
+61.6795 	EXP 	countdowntimer_4: text = '9:40'
+61.6959 	EXP 	countdowntimer_4: text = '9:40'
+61.7125 	EXP 	countdowntimer_4: text = '9:40'
+61.7291 	EXP 	countdowntimer_4: text = '9:40'
+61.7456 	EXP 	countdowntimer_4: text = '9:40'
+61.7625 	EXP 	countdowntimer_4: text = '9:40'
+61.7789 	EXP 	countdowntimer_4: text = '9:40'
+61.7956 	EXP 	countdowntimer_4: text = '9:40'
+61.8128 	EXP 	countdowntimer_4: text = '9:40'
+61.8292 	EXP 	countdowntimer_4: text = '9:40'
+61.8458 	EXP 	countdowntimer_4: text = '9:40'
+61.8623 	EXP 	countdowntimer_4: text = '9:40'
+61.8793 	EXP 	countdowntimer_4: text = '9:40'
+61.8961 	EXP 	countdowntimer_4: text = '9:40'
+61.9127 	EXP 	countdowntimer_4: text = '9:40'
+61.9296 	EXP 	countdowntimer_4: text = '9:40'
+61.9461 	EXP 	countdowntimer_4: text = '9:40'
+61.9623 	EXP 	countdowntimer_4: text = '9:40'
+61.9789 	EXP 	countdowntimer_4: text = '9:40'
+61.9957 	EXP 	countdowntimer_4: text = '9:40'
+62.0127 	EXP 	countdowntimer_4: text = '9:40'
+62.0292 	EXP 	countdowntimer_4: text = '9:40'
+62.0457 	EXP 	countdowntimer_4: text = '9:40'
+62.0622 	EXP 	countdowntimer_4: text = '9:40'
+62.0791 	EXP 	countdowntimer_4: text = '9:40'
+62.0959 	EXP 	countdowntimer_4: text = '9:40'
+62.1126 	EXP 	countdowntimer_4: text = '9:40'
+62.1293 	EXP 	countdowntimer_4: text = '9:40'
+62.1460 	EXP 	countdowntimer_4: text = '9:40'
+62.1628 	EXP 	countdowntimer_4: text = '9:40'
+62.1792 	EXP 	countdowntimer_4: text = '9:40'
+62.1956 	EXP 	countdowntimer_4: text = '9:40'
+62.2123 	EXP 	countdowntimer_4: text = '9:40'
+62.2289 	EXP 	countdowntimer_4: text = '9:40'
+62.2462 	EXP 	countdowntimer_4: text = '9:40'
+62.2627 	EXP 	countdowntimer_4: text = '9:40'
+62.2792 	EXP 	countdowntimer_4: text = '9:40'
+62.2957 	EXP 	countdowntimer_4: text = '9:40'
+62.3121 	EXP 	countdowntimer_4: text = '9:40'
+62.3291 	EXP 	countdowntimer_4: text = '9:40'
+62.3460 	EXP 	countdowntimer_4: text = '9:40'
+62.3624 	EXP 	countdowntimer_4: text = '9:40'
+62.3791 	EXP 	countdowntimer_4: text = '9:40'
+62.3960 	EXP 	countdowntimer_4: text = '9:40'
+62.4124 	EXP 	countdowntimer_4: text = '9:40'
+62.4292 	EXP 	countdowntimer_4: text = '9:40'
+62.4459 	EXP 	countdowntimer_4: text = '9:40'
+62.4625 	EXP 	countdowntimer_4: text = '9:40'
+62.4798 	EXP 	countdowntimer_4: text = '9:39'
+62.4958 	EXP 	countdowntimer_4: text = '9:39'
+62.5127 	EXP 	countdowntimer_4: text = '9:39'
+62.5292 	EXP 	countdowntimer_4: text = '9:39'
+62.5457 	EXP 	countdowntimer_4: text = '9:39'
+62.5623 	EXP 	countdowntimer_4: text = '9:39'
+62.5791 	EXP 	countdowntimer_4: text = '9:39'
+62.5955 	EXP 	countdowntimer_4: text = '9:39'
+62.6125 	EXP 	countdowntimer_4: text = '9:39'
+62.6291 	EXP 	countdowntimer_4: text = '9:39'
+62.6457 	EXP 	countdowntimer_4: text = '9:39'
+62.6625 	EXP 	countdowntimer_4: text = '9:39'
+62.6792 	EXP 	countdowntimer_4: text = '9:39'
+62.6959 	EXP 	countdowntimer_4: text = '9:39'
+62.7125 	EXP 	countdowntimer_4: text = '9:39'
+62.7291 	EXP 	countdowntimer_4: text = '9:39'
+62.7456 	EXP 	countdowntimer_4: text = '9:39'
+62.7622 	EXP 	countdowntimer_4: text = '9:39'
+62.7788 	EXP 	countdowntimer_4: text = '9:39'
+62.7959 	EXP 	countdowntimer_4: text = '9:39'
+62.8124 	EXP 	countdowntimer_4: text = '9:39'
+62.8290 	EXP 	countdowntimer_4: text = '9:39'
+62.8467 	EXP 	countdowntimer_4: text = '9:39'
+62.8624 	EXP 	countdowntimer_4: text = '9:39'
+62.8789 	EXP 	countdowntimer_4: text = '9:39'
+62.8957 	EXP 	countdowntimer_4: text = '9:39'
+62.9127 	EXP 	countdowntimer_4: text = '9:39'
+62.9295 	EXP 	countdowntimer_4: text = '9:39'
+62.9460 	EXP 	countdowntimer_4: text = '9:39'
+62.9623 	EXP 	countdowntimer_4: text = '9:39'
+62.9789 	EXP 	countdowntimer_4: text = '9:39'
+62.9956 	EXP 	countdowntimer_4: text = '9:39'
+63.0123 	EXP 	countdowntimer_4: text = '9:39'
+63.0291 	EXP 	countdowntimer_4: text = '9:39'
+63.0460 	EXP 	countdowntimer_4: text = '9:39'
+63.0623 	EXP 	countdowntimer_4: text = '9:39'
+63.0790 	EXP 	countdowntimer_4: text = '9:39'
+63.0957 	EXP 	countdowntimer_4: text = '9:39'
+63.1123 	EXP 	countdowntimer_4: text = '9:39'
+63.1288 	EXP 	countdowntimer_4: text = '9:39'
+63.1458 	EXP 	countdowntimer_4: text = '9:39'
+63.1622 	EXP 	countdowntimer_4: text = '9:39'
+63.1794 	EXP 	countdowntimer_4: text = '9:39'
+63.1958 	EXP 	countdowntimer_4: text = '9:39'
+63.2122 	EXP 	countdowntimer_4: text = '9:39'
+63.2289 	EXP 	countdowntimer_4: text = '9:39'
+63.2458 	EXP 	countdowntimer_4: text = '9:39'
+63.2624 	EXP 	countdowntimer_4: text = '9:39'
+63.2791 	EXP 	countdowntimer_4: text = '9:39'
+63.2963 	EXP 	countdowntimer_4: text = '9:39'
+63.3126 	EXP 	countdowntimer_4: text = '9:39'
+63.3294 	EXP 	countdowntimer_4: text = '9:39'
+63.3454 	EXP 	countdowntimer_4: text = '9:39'
+63.3626 	EXP 	countdowntimer_4: text = '9:39'
+63.3791 	EXP 	countdowntimer_4: text = '9:39'
+63.3986 	EXP 	countdowntimer_4: text = '9:39'
+63.4191 	EXP 	countdowntimer_4: text = '9:39'
+63.4432 	EXP 	countdowntimer_4: text = '9:39'
+63.4626 	EXP 	countdowntimer_4: text = '9:39'
+63.4806 	EXP 	countdowntimer_4: text = '9:38'
+63.4960 	EXP 	countdowntimer_4: text = '9:38'
+63.5127 	EXP 	countdowntimer_4: text = '9:38'
+63.5293 	EXP 	countdowntimer_4: text = '9:38'
+63.5458 	EXP 	countdowntimer_4: text = '9:38'
+63.5624 	EXP 	countdowntimer_4: text = '9:38'
+63.5790 	EXP 	countdowntimer_4: text = '9:38'
+63.5955 	EXP 	countdowntimer_4: text = '9:38'
+63.6123 	EXP 	countdowntimer_4: text = '9:38'
+63.6290 	EXP 	countdowntimer_4: text = '9:38'
+63.6460 	EXP 	countdowntimer_4: text = '9:38'
+63.6623 	EXP 	countdowntimer_4: text = '9:38'
+63.6792 	EXP 	countdowntimer_4: text = '9:38'
+63.6963 	EXP 	countdowntimer_4: text = '9:38'
+63.7123 	EXP 	countdowntimer_4: text = '9:38'
+63.7289 	EXP 	countdowntimer_4: text = '9:38'
+63.7462 	EXP 	countdowntimer_4: text = '9:38'
+63.7623 	EXP 	countdowntimer_4: text = '9:38'
+63.7796 	EXP 	countdowntimer_4: text = '9:38'
+63.7955 	EXP 	countdowntimer_4: text = '9:38'
+63.8125 	EXP 	countdowntimer_4: text = '9:38'
+63.8288 	EXP 	countdowntimer_4: text = '9:38'
+63.8456 	EXP 	countdowntimer_4: text = '9:38'
+63.8623 	EXP 	countdowntimer_4: text = '9:38'
+63.8790 	EXP 	countdowntimer_4: text = '9:38'
+63.8956 	EXP 	countdowntimer_4: text = '9:38'
+63.9124 	EXP 	countdowntimer_4: text = '9:38'
+63.9291 	EXP 	countdowntimer_4: text = '9:38'
+63.9461 	EXP 	countdowntimer_4: text = '9:38'
+63.9625 	EXP 	countdowntimer_4: text = '9:38'
+63.9793 	EXP 	countdowntimer_4: text = '9:38'
+63.9957 	EXP 	countdowntimer_4: text = '9:38'
+64.0122 	EXP 	countdowntimer_4: text = '9:38'
+64.0294 	EXP 	countdowntimer_4: text = '9:38'
+64.0462 	EXP 	countdowntimer_4: text = '9:38'
+64.0623 	EXP 	countdowntimer_4: text = '9:38'
+64.0792 	EXP 	countdowntimer_4: text = '9:38'
+64.0959 	EXP 	countdowntimer_4: text = '9:38'
+64.1124 	EXP 	countdowntimer_4: text = '9:38'
+64.1290 	EXP 	countdowntimer_4: text = '9:38'
+64.1457 	EXP 	countdowntimer_4: text = '9:38'
+64.1623 	EXP 	countdowntimer_4: text = '9:38'
+64.1793 	EXP 	countdowntimer_4: text = '9:38'
+64.1960 	EXP 	countdowntimer_4: text = '9:38'
+64.2124 	EXP 	countdowntimer_4: text = '9:38'
+64.2291 	EXP 	countdowntimer_4: text = '9:38'
+64.2457 	EXP 	countdowntimer_4: text = '9:38'
+64.2622 	EXP 	countdowntimer_4: text = '9:38'
+64.2792 	EXP 	countdowntimer_4: text = '9:38'
+64.2964 	EXP 	countdowntimer_4: text = '9:38'
+64.3130 	EXP 	countdowntimer_4: text = '9:38'
+64.3291 	EXP 	countdowntimer_4: text = '9:38'
+64.3458 	EXP 	countdowntimer_4: text = '9:38'
+64.3625 	EXP 	countdowntimer_4: text = '9:38'
+64.3792 	EXP 	countdowntimer_4: text = '9:38'
+64.3959 	EXP 	countdowntimer_4: text = '9:38'
+64.4126 	EXP 	countdowntimer_4: text = '9:38'
+64.4292 	EXP 	countdowntimer_4: text = '9:38'
+64.4456 	EXP 	countdowntimer_4: text = '9:38'
+64.4622 	EXP 	countdowntimer_4: text = '9:38'
+64.4788 	EXP 	countdowntimer_4: text = '9:37'
+64.4954 	EXP 	countdowntimer_4: text = '9:37'
+64.5127 	EXP 	countdowntimer_4: text = '9:37'
+64.5292 	EXP 	countdowntimer_4: text = '9:37'
+64.5457 	EXP 	countdowntimer_4: text = '9:37'
+64.5624 	EXP 	countdowntimer_4: text = '9:37'
+64.5790 	EXP 	countdowntimer_4: text = '9:37'
+64.5958 	EXP 	countdowntimer_4: text = '9:37'
+64.6132 	EXP 	countdowntimer_4: text = '9:37'
+64.6293 	EXP 	countdowntimer_4: text = '9:37'
+64.6468 	EXP 	countdowntimer_4: text = '9:37'
+64.6624 	EXP 	countdowntimer_4: text = '9:37'
+64.6791 	EXP 	countdowntimer_4: text = '9:37'
+64.6955 	EXP 	countdowntimer_4: text = '9:37'
+64.7124 	EXP 	countdowntimer_4: text = '9:37'
+64.7293 	EXP 	countdowntimer_4: text = '9:37'
+64.7459 	EXP 	countdowntimer_4: text = '9:37'
+64.7626 	EXP 	countdowntimer_4: text = '9:37'
+64.7794 	EXP 	countdowntimer_4: text = '9:37'
+64.7957 	EXP 	countdowntimer_4: text = '9:37'
+64.8126 	EXP 	countdowntimer_4: text = '9:37'
+64.8290 	EXP 	countdowntimer_4: text = '9:37'
+64.8457 	EXP 	countdowntimer_4: text = '9:37'
+64.8620 	EXP 	countdowntimer_4: text = '9:37'
+64.8794 	EXP 	countdowntimer_4: text = '9:37'
+64.8959 	EXP 	countdowntimer_4: text = '9:37'
+64.9124 	EXP 	countdowntimer_4: text = '9:37'
+64.9294 	EXP 	countdowntimer_4: text = '9:37'
+64.9458 	EXP 	countdowntimer_4: text = '9:37'
+64.9625 	EXP 	countdowntimer_4: text = '9:37'
+64.9795 	EXP 	countdowntimer_4: text = '9:37'
+64.9957 	EXP 	countdowntimer_4: text = '9:37'
+65.0123 	EXP 	countdowntimer_4: text = '9:37'
+65.0292 	EXP 	countdowntimer_4: text = '9:37'
+65.0311 	DATA 	Keypress: c
+65.0472 	EXP 	text_13: text = 'c'
+65.0472 	EXP 	countdowntimer_4: text = '9:37'
+65.0627 	EXP 	countdowntimer_4: text = '9:37'
+65.0791 	EXP 	countdowntimer_4: text = '9:37'
+65.0956 	EXP 	countdowntimer_4: text = '9:37'
+65.1125 	EXP 	countdowntimer_4: text = '9:37'
+65.1294 	EXP 	countdowntimer_4: text = '9:37'
+65.1307 	DATA 	Keypress: o
+65.1465 	EXP 	text_13: text = 'co'
+65.1465 	EXP 	countdowntimer_4: text = '9:37'
+65.1628 	EXP 	countdowntimer_4: text = '9:37'
+65.1794 	EXP 	countdowntimer_4: text = '9:37'
+65.1960 	EXP 	countdowntimer_4: text = '9:37'
+65.1978 	DATA 	Keypress: m
+65.2143 	EXP 	text_13: text = 'com'
+65.2143 	EXP 	countdowntimer_4: text = '9:37'
+65.2293 	EXP 	countdowntimer_4: text = '9:37'
+65.2462 	EXP 	countdowntimer_4: text = '9:37'
+65.2627 	EXP 	countdowntimer_4: text = '9:37'
+65.2789 	EXP 	countdowntimer_4: text = '9:37'
+65.2808 	DATA 	Keypress: e
+65.2975 	EXP 	text_13: text = 'come'
+65.2975 	EXP 	countdowntimer_4: text = '9:37'
+65.3127 	EXP 	countdowntimer_4: text = '9:37'
+65.3293 	EXP 	countdowntimer_4: text = '9:37'
+65.3458 	EXP 	countdowntimer_4: text = '9:37'
+65.3620 	EXP 	countdowntimer_4: text = '9:37'
+65.3647 	DATA 	Keypress: space
+65.3814 	EXP 	text_13: text = 'come '
+65.3814 	EXP 	countdowntimer_4: text = '9:37'
+65.3960 	EXP 	countdowntimer_4: text = '9:37'
+65.4126 	EXP 	countdowntimer_4: text = '9:37'
+65.4298 	EXP 	countdowntimer_4: text = '9:37'
+65.4461 	EXP 	countdowntimer_4: text = '9:37'
+65.4496 	DATA 	Keypress: t
+65.4624 	EXP 	countdowntimer_4: text = '9:37'
+65.4821 	EXP 	text_13: text = 'come t'
+65.4821 	EXP 	countdowntimer_4: text = '9:36'
+65.4971 	EXP 	countdowntimer_4: text = '9:36'
+65.5126 	EXP 	countdowntimer_4: text = '9:36'
+65.5144 	DATA 	Keypress: o
+65.5310 	EXP 	text_13: text = 'come to'
+65.5310 	EXP 	countdowntimer_4: text = '9:36'
+65.5461 	EXP 	countdowntimer_4: text = '9:36'
+65.5628 	EXP 	countdowntimer_4: text = '9:36'
+65.5795 	EXP 	countdowntimer_4: text = '9:36'
+65.5963 	EXP 	countdowntimer_4: text = '9:36'
+65.5980 	DATA 	Keypress: space
+65.6138 	EXP 	text_13: text = 'come to '
+65.6138 	EXP 	countdowntimer_4: text = '9:36'
+65.6294 	EXP 	countdowntimer_4: text = '9:36'
+65.6459 	EXP 	countdowntimer_4: text = '9:36'
+65.6626 	EXP 	countdowntimer_4: text = '9:36'
+65.6790 	EXP 	countdowntimer_4: text = '9:36'
+65.6955 	EXP 	countdowntimer_4: text = '9:36'
+65.6986 	DATA 	Keypress: t
+65.7129 	EXP 	countdowntimer_4: text = '9:36'
+65.7299 	EXP 	text_13: text = 'come to t'
+65.7299 	EXP 	countdowntimer_4: text = '9:36'
+65.7464 	EXP 	countdowntimer_4: text = '9:36'
+65.7624 	EXP 	countdowntimer_4: text = '9:36'
+65.7641 	DATA 	Keypress: h
+65.7811 	EXP 	text_13: text = 'come to th'
+65.7811 	EXP 	countdowntimer_4: text = '9:36'
+65.7964 	EXP 	countdowntimer_4: text = '9:36'
+65.8130 	EXP 	countdowntimer_4: text = '9:36'
+65.8292 	EXP 	countdowntimer_4: text = '9:36'
+65.8461 	EXP 	countdowntimer_4: text = '9:36'
+65.8623 	EXP 	countdowntimer_4: text = '9:36'
+65.8634 	DATA 	Keypress: e
+65.8806 	EXP 	text_13: text = 'come to the'
+65.8806 	EXP 	countdowntimer_4: text = '9:36'
+65.8958 	EXP 	countdowntimer_4: text = '9:36'
+65.9126 	EXP 	countdowntimer_4: text = '9:36'
+65.9293 	EXP 	countdowntimer_4: text = '9:36'
+65.9307 	DATA 	Keypress: space
+65.9469 	EXP 	text_13: text = 'come to the '
+65.9469 	EXP 	countdowntimer_4: text = '9:36'
+65.9628 	EXP 	countdowntimer_4: text = '9:36'
+65.9796 	EXP 	countdowntimer_4: text = '9:36'
+65.9957 	EXP 	countdowntimer_4: text = '9:36'
+66.0127 	EXP 	countdowntimer_4: text = '9:36'
+66.0293 	EXP 	countdowntimer_4: text = '9:36'
+66.0460 	EXP 	countdowntimer_4: text = '9:36'
+66.0622 	EXP 	countdowntimer_4: text = '9:36'
+66.0638 	DATA 	Keypress: p
+66.0815 	EXP 	text_13: text = 'come to the p'
+66.0815 	EXP 	countdowntimer_4: text = '9:36'
+66.0965 	EXP 	countdowntimer_4: text = '9:36'
+66.1127 	EXP 	countdowntimer_4: text = '9:36'
+66.1293 	EXP 	countdowntimer_4: text = '9:36'
+66.1459 	EXP 	countdowntimer_4: text = '9:36'
+66.1627 	EXP 	countdowntimer_4: text = '9:36'
+66.1641 	DATA 	Keypress: a
+66.1811 	EXP 	text_13: text = 'come to the pa'
+66.1811 	EXP 	countdowntimer_4: text = '9:36'
+66.1967 	EXP 	countdowntimer_4: text = '9:36'
+66.2135 	EXP 	countdowntimer_4: text = '9:36'
+66.2175 	DATA 	Keypress: r
+66.2305 	EXP 	countdowntimer_4: text = '9:36'
+66.2476 	EXP 	text_13: text = 'come to the par'
+66.2476 	EXP 	countdowntimer_4: text = '9:36'
+66.2653 	EXP 	countdowntimer_4: text = '9:36'
+66.2801 	EXP 	countdowntimer_4: text = '9:36'
+66.2971 	EXP 	countdowntimer_4: text = '9:36'
+66.3128 	EXP 	countdowntimer_4: text = '9:36'
+66.3294 	EXP 	countdowntimer_4: text = '9:36'
+66.3319 	DATA 	Keypress: k
+66.3478 	EXP 	text_13: text = 'come to the park'
+66.3478 	EXP 	countdowntimer_4: text = '9:36'
+66.3629 	EXP 	countdowntimer_4: text = '9:36'
+66.3789 	EXP 	countdowntimer_4: text = '9:36'
+66.3955 	EXP 	countdowntimer_4: text = '9:36'
+66.4124 	EXP 	countdowntimer_4: text = '9:36'
+66.4293 	EXP 	countdowntimer_4: text = '9:36'
+66.4461 	EXP 	countdowntimer_4: text = '9:36'
+66.4627 	EXP 	countdowntimer_4: text = '9:36'
+66.4801 	EXP 	countdowntimer_4: text = '9:35'
+66.4815 	DATA 	Keypress: space
+66.4988 	EXP 	text_13: text = 'come to the park '
+66.4988 	EXP 	countdowntimer_4: text = '9:35'
+66.5136 	EXP 	countdowntimer_4: text = '9:35'
+66.5298 	EXP 	countdowntimer_4: text = '9:35'
+66.5462 	EXP 	countdowntimer_4: text = '9:35'
+66.5625 	EXP 	countdowntimer_4: text = '9:35'
+66.5789 	EXP 	countdowntimer_4: text = '9:35'
+66.5958 	EXP 	countdowntimer_4: text = '9:35'
+66.6123 	EXP 	countdowntimer_4: text = '9:35'
+66.6140 	DATA 	Keypress: a
+66.6307 	EXP 	text_13: text = 'come to the park a'
+66.6307 	EXP 	countdowntimer_4: text = '9:35'
+66.6466 	EXP 	countdowntimer_4: text = '9:35'
+66.6624 	EXP 	countdowntimer_4: text = '9:35'
+66.6791 	EXP 	countdowntimer_4: text = '9:35'
+66.6806 	DATA 	Keypress: n
+66.6982 	EXP 	text_13: text = 'come to the park an'
+66.6982 	EXP 	countdowntimer_4: text = '9:35'
+66.7135 	EXP 	countdowntimer_4: text = '9:35'
+66.7293 	EXP 	countdowntimer_4: text = '9:35'
+66.7462 	EXP 	countdowntimer_4: text = '9:35'
+66.7630 	EXP 	countdowntimer_4: text = '9:35'
+66.7792 	EXP 	countdowntimer_4: text = '9:35'
+66.7960 	EXP 	countdowntimer_4: text = '9:35'
+66.7973 	DATA 	Keypress: d
+66.8138 	EXP 	text_13: text = 'come to the park and'
+66.8138 	EXP 	countdowntimer_4: text = '9:35'
+66.8296 	EXP 	countdowntimer_4: text = '9:35'
+66.8462 	EXP 	countdowntimer_4: text = '9:35'
+66.8626 	EXP 	countdowntimer_4: text = '9:35'
+66.8639 	DATA 	Keypress: space
+66.8802 	EXP 	text_13: text = 'come to the park and '
+66.8802 	EXP 	countdowntimer_4: text = '9:35'
+66.8961 	EXP 	countdowntimer_4: text = '9:35'
+66.9128 	EXP 	countdowntimer_4: text = '9:35'
+66.9293 	EXP 	countdowntimer_4: text = '9:35'
+66.9461 	EXP 	countdowntimer_4: text = '9:35'
+66.9624 	EXP 	countdowntimer_4: text = '9:35'
+66.9792 	EXP 	countdowntimer_4: text = '9:35'
+66.9961 	EXP 	countdowntimer_4: text = '9:35'
+66.9991 	DATA 	Keypress: p
+67.0125 	EXP 	countdowntimer_4: text = '9:35'
+67.0313 	EXP 	text_13: text = 'come to the park and p'
+67.0313 	EXP 	countdowntimer_4: text = '9:35'
+67.0472 	EXP 	countdowntimer_4: text = '9:35'
+67.0626 	EXP 	countdowntimer_4: text = '9:35'
+67.0662 	DATA 	Keypress: l
+67.0790 	EXP 	countdowntimer_4: text = '9:35'
+67.0969 	EXP 	text_13: text = 'come to the park and pl'
+67.0969 	EXP 	countdowntimer_4: text = '9:35'
+67.1130 	EXP 	countdowntimer_4: text = '9:35'
+67.1289 	EXP 	countdowntimer_4: text = '9:35'
+67.1459 	EXP 	countdowntimer_4: text = '9:35'
+67.1625 	EXP 	countdowntimer_4: text = '9:35'
+67.1804 	EXP 	countdowntimer_4: text = '9:35'
+67.1959 	EXP 	countdowntimer_4: text = '9:35'
+67.1978 	DATA 	Keypress: a
+67.2154 	EXP 	text_13: text = 'come to the park and pla'
+67.2154 	EXP 	countdowntimer_4: text = '9:35'
+67.2304 	EXP 	countdowntimer_4: text = '9:35'
+67.2462 	EXP 	countdowntimer_4: text = '9:35'
+67.2627 	EXP 	countdowntimer_4: text = '9:35'
+67.2797 	EXP 	countdowntimer_4: text = '9:35'
+67.2959 	EXP 	countdowntimer_4: text = '9:35'
+67.2973 	DATA 	Keypress: y
+67.3139 	EXP 	text_13: text = 'come to the park and play'
+67.3139 	EXP 	countdowntimer_4: text = '9:35'
+67.3296 	EXP 	countdowntimer_4: text = '9:35'
+67.3464 	EXP 	countdowntimer_4: text = '9:35'
+67.3626 	EXP 	countdowntimer_4: text = '9:35'
+67.3792 	EXP 	countdowntimer_4: text = '9:35'
+67.3962 	EXP 	countdowntimer_4: text = '9:35'
+67.4127 	EXP 	countdowntimer_4: text = '9:35'
+67.4296 	EXP 	countdowntimer_4: text = '9:35'
+67.4456 	EXP 	countdowntimer_4: text = '9:35'
+67.4473 	DATA 	Keypress: space
+67.4647 	EXP 	text_13: text = 'come to the park and play '
+67.4647 	EXP 	countdowntimer_4: text = '9:35'
+67.4816 	EXP 	countdowntimer_4: text = '9:34'
+67.4964 	EXP 	countdowntimer_4: text = '9:34'
+67.5127 	EXP 	countdowntimer_4: text = '9:34'
+67.5296 	EXP 	countdowntimer_4: text = '9:34'
+67.5460 	EXP 	countdowntimer_4: text = '9:34'
+67.5630 	EXP 	countdowntimer_4: text = '9:34'
+67.5644 	DATA 	Keypress: w
+67.5811 	EXP 	text_13: text = 'come to the park and play w'
+67.5811 	EXP 	countdowntimer_4: text = '9:34'
+67.5959 	EXP 	countdowntimer_4: text = '9:34'
+67.6130 	EXP 	countdowntimer_4: text = '9:34'
+67.6169 	DATA 	Keypress: i
+67.6298 	EXP 	countdowntimer_4: text = '9:34'
+67.6474 	EXP 	text_13: text = 'come to the park and play wi'
+67.6474 	EXP 	countdowntimer_4: text = '9:34'
+67.6624 	EXP 	countdowntimer_4: text = '9:34'
+67.6787 	EXP 	countdowntimer_4: text = '9:34'
+67.6959 	EXP 	countdowntimer_4: text = '9:34'
+67.7121 	EXP 	countdowntimer_4: text = '9:34'
+67.7295 	EXP 	countdowntimer_4: text = '9:34'
+67.7457 	EXP 	countdowntimer_4: text = '9:34'
+67.7476 	DATA 	Keypress: t
+67.7538 	DATA 	Keypress: h
+67.7656 	EXP 	text_13: text = 'come to the park and play wit'
+67.7656 	EXP 	countdowntimer_4: text = '9:34'
+67.7823 	EXP 	text_13: text = 'come to the park and play with'
+67.7823 	EXP 	countdowntimer_4: text = '9:34'
+67.7989 	EXP 	countdowntimer_4: text = '9:34'
+67.8136 	EXP 	countdowntimer_4: text = '9:34'
+67.8289 	EXP 	countdowntimer_4: text = '9:34'
+67.8463 	EXP 	countdowntimer_4: text = '9:34'
+67.8630 	EXP 	countdowntimer_4: text = '9:34'
+67.8646 	DATA 	Keypress: space
+67.8824 	EXP 	text_13: text = 'come to the park and play with '
+67.8824 	EXP 	countdowntimer_4: text = '9:34'
+67.8972 	EXP 	countdowntimer_4: text = '9:34'
+67.9129 	EXP 	countdowntimer_4: text = '9:34'
+67.9293 	EXP 	countdowntimer_4: text = '9:34'
+67.9459 	EXP 	countdowntimer_4: text = '9:34'
+67.9626 	EXP 	countdowntimer_4: text = '9:34'
+67.9790 	EXP 	countdowntimer_4: text = '9:34'
+67.9806 	DATA 	Keypress: m
+67.9983 	EXP 	text_13: text = 'come to the park and play with m'
+67.9983 	EXP 	countdowntimer_4: text = '9:34'
+68.0134 	EXP 	countdowntimer_4: text = '9:34'
+68.0294 	EXP 	countdowntimer_4: text = '9:34'
+68.0460 	EXP 	countdowntimer_4: text = '9:34'
+68.0473 	DATA 	Keypress: e
+68.0643 	EXP 	text_13: text = 'come to the park and play with me'
+68.0643 	EXP 	countdowntimer_4: text = '9:34'
+68.0796 	EXP 	countdowntimer_4: text = '9:34'
+68.0961 	EXP 	countdowntimer_4: text = '9:34'
+68.1128 	EXP 	countdowntimer_4: text = '9:34'
+68.1291 	EXP 	countdowntimer_4: text = '9:34'
+68.1459 	EXP 	countdowntimer_4: text = '9:34'
+68.1626 	EXP 	countdowntimer_4: text = '9:34'
+68.1664 	DATA 	Keypress: return
+68.1793 	EXP 	countdowntimer_4: text = '9:34'
+68.2255 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+68.2256 	EXP 	New trial (rep=0, index=0): None
+68.2494 	EXP 	countdowntimer_4: text = '9:34'
+68.2494 	EXP 	text_13: autoDraw = False
+68.2494 	EXP 	actualcount1: autoDraw = False
+68.2494 	EXP 	displayhcount_7: autoDraw = False
+68.2494 	EXP 	alien: autoDraw = False
+68.2494 	EXP 	border_text_4: autoDraw = False
+68.2494 	EXP 	countdowntimer_4: autoDraw = False
+68.2494 	EXP 	hostage_4: autoDraw = True
+68.2494 	EXP 	releasenotify: autoDraw = True
+68.7386 	EXP 	New trial (rep=8, index=0): None
+68.7542 	EXP 	hostage_4: autoDraw = False
+68.7542 	EXP 	releasenotify: autoDraw = False
+68.7542 	EXP 	text_13: text = ''
+68.7542 	EXP 	actualcount1: text = 3
+68.7542 	EXP 	text_13: autoDraw = True
+68.7542 	EXP 	actualcount1: autoDraw = True
+68.7542 	EXP 	displayhcount_7: autoDraw = True
+68.7542 	EXP 	alien: autoDraw = True
+68.7542 	EXP 	border_text_4: autoDraw = True
+68.7542 	EXP 	countdowntimer_4: autoDraw = True
+68.7542 	EXP 	countdowntimer_4: text = '9:33'
+68.7682 	EXP 	countdowntimer_4: text = '9:33'
+68.7828 	EXP 	countdowntimer_4: text = '9:33'
+68.7991 	EXP 	countdowntimer_4: text = '9:33'
+68.8138 	EXP 	countdowntimer_4: text = '9:33'
+68.8297 	EXP 	countdowntimer_4: text = '9:33'
+68.8464 	EXP 	countdowntimer_4: text = '9:33'
+68.8632 	EXP 	countdowntimer_4: text = '9:33'
+68.8800 	EXP 	countdowntimer_4: text = '9:33'
+68.8965 	EXP 	countdowntimer_4: text = '9:33'
+68.9127 	EXP 	countdowntimer_4: text = '9:33'
+68.9296 	EXP 	countdowntimer_4: text = '9:33'
+68.9463 	EXP 	countdowntimer_4: text = '9:33'
+68.9629 	EXP 	countdowntimer_4: text = '9:33'
+68.9796 	EXP 	countdowntimer_4: text = '9:33'
+68.9965 	EXP 	countdowntimer_4: text = '9:33'
+69.0131 	EXP 	countdowntimer_4: text = '9:33'
+69.0300 	EXP 	countdowntimer_4: text = '9:33'
+69.0471 	EXP 	countdowntimer_4: text = '9:33'
+69.0629 	EXP 	countdowntimer_4: text = '9:33'
+69.0795 	EXP 	countdowntimer_4: text = '9:33'
+69.0965 	EXP 	countdowntimer_4: text = '9:33'
+69.1132 	EXP 	countdowntimer_4: text = '9:33'
+69.1298 	EXP 	countdowntimer_4: text = '9:33'
+69.1466 	EXP 	countdowntimer_4: text = '9:33'
+69.1632 	EXP 	countdowntimer_4: text = '9:33'
+69.1796 	EXP 	countdowntimer_4: text = '9:33'
+69.1964 	EXP 	countdowntimer_4: text = '9:33'
+69.2133 	EXP 	countdowntimer_4: text = '9:33'
+69.2298 	EXP 	countdowntimer_4: text = '9:33'
+69.2464 	EXP 	countdowntimer_4: text = '9:33'
+69.2633 	EXP 	countdowntimer_4: text = '9:33'
+69.2798 	EXP 	countdowntimer_4: text = '9:33'
+69.2962 	EXP 	countdowntimer_4: text = '9:33'
+69.3133 	EXP 	countdowntimer_4: text = '9:33'
+69.3299 	EXP 	countdowntimer_4: text = '9:33'
+69.3465 	EXP 	countdowntimer_4: text = '9:33'
+69.3632 	EXP 	countdowntimer_4: text = '9:33'
+69.3796 	EXP 	countdowntimer_4: text = '9:33'
+69.3963 	EXP 	countdowntimer_4: text = '9:33'
+69.4130 	EXP 	countdowntimer_4: text = '9:33'
+69.4296 	EXP 	countdowntimer_4: text = '9:33'
+69.4464 	EXP 	countdowntimer_4: text = '9:33'
+69.4630 	EXP 	countdowntimer_4: text = '9:33'
+69.4806 	EXP 	countdowntimer_4: text = '9:32'
+69.4967 	EXP 	countdowntimer_4: text = '9:32'
+69.5130 	EXP 	countdowntimer_4: text = '9:32'
+69.5296 	EXP 	countdowntimer_4: text = '9:32'
+69.5464 	EXP 	countdowntimer_4: text = '9:32'
+69.5632 	EXP 	countdowntimer_4: text = '9:32'
+69.5798 	EXP 	countdowntimer_4: text = '9:32'
+69.5966 	EXP 	countdowntimer_4: text = '9:32'
+69.6131 	EXP 	countdowntimer_4: text = '9:32'
+69.6296 	EXP 	countdowntimer_4: text = '9:32'
+69.6464 	EXP 	countdowntimer_4: text = '9:32'
+69.6631 	EXP 	countdowntimer_4: text = '9:32'
+69.6795 	EXP 	countdowntimer_4: text = '9:32'
+69.6965 	EXP 	countdowntimer_4: text = '9:32'
+69.7127 	EXP 	countdowntimer_4: text = '9:32'
+69.7138 	DATA 	Keypress: escape
+69.7305 	EXP 	text_13: text = 'escape'
+69.7305 	EXP 	countdowntimer_4: text = '9:32'
+69.7464 	EXP 	countdowntimer_4: text = '9:32'
+69.7626 	EXP 	countdowntimer_4: text = '9:32'
+69.7792 	EXP 	countdowntimer_4: text = '9:32'
+70.4801 	EXP 	window1: mouseVisible = True
+70.4803 	DEBUG 	Saving data for VERSION5 ExperimentHandler
+70.4851 	INFO 	saved data to /Users/hannah_checkeye/Desktop/UMW/Spring 2021/Verbal Shaping Experiment/Version 5/data/_VERSION5_2021_Apr_05_1235.psydat
+70.4884 	INFO 	saved data to '/Users/hannah_checkeye/Desktop/UMW/Spring 2021/Verbal Shaping Experiment/Version 5/data/_VERSION5_2021_Apr_05_1235.csv'

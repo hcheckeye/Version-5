@@ -1,0 +1,377 @@
+0.8672 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.2464 	INFO 	Loaded monitor calibration from ['2021_01_25 12:49']
+7.9353 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1., 1., 1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd04264ea90>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd04450c4e0>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.9355 	EXP 	window1: mouseVisible = True
+7.9356 	EXP 	window1: recordFrameIntervals = False
+8.1015 	EXP 	window1: recordFrameIntervals = True
+8.2850 	DEBUG 	Screen (0) actual frame rate measured at 60.00
+8.2850 	EXP 	window1: recordFrameIntervals = False
+8.6781 	EXP 	Created explain = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='explain', opacity=1.0, ori=0, pos=array([0.  , 0.15]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6790 	EXP 	Created participantcode = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='participantcode', opacity=1.0, ori=0, pos=array([ 0.  , -0.35]), rgb=array([255.,   0.,   0.]), text='', units='height', win=Window(...), wrapWidth=1)
+8.8990 	EXP 	Created instructions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.1169 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0.45, -0.42]), rgb=array([255.,   0.,   0.]), text='Press return to continue', units='height', win=Window(...), wrapWidth=1)
+9.1205 	EXP 	Created practiceinstruct = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='practiceinstruct', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.3327 	EXP 	Created return_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='return_2', opacity=1.0, ori=0, pos=array([ 0.45, -0.42]), rgb=array([255.,   0.,   0.]), text='Press return to continue', units='height', win=Window(...), wrapWidth=1)
+9.3332 	EXP 	Created input_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='input_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+9.5641 	EXP 	Created hcountprac = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='hcountprac', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.5708 	EXP 	Created displayhcount = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='displayhcount', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=array([0., 0., 0.]), text='Hostage Count:', units='height', win=Window(...), wrapWidth=1)
+9.5722 	EXP 	Created text_border = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-5.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='text_border', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.9, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+9.5881 	EXP 	Created hostage_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='hostage1.png', interpolate=True, mask=None, maskParams=None, name='hostage_4', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+9.7658 	EXP 	Sound sound_4 set volume 1.000
+9.7844 	EXP 	Created releasenotify = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='releasenotify', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([0., 0., 0.]), text='A hostage has been released!', units='height', win=Window(...), wrapWidth=1)
+9.8189 	EXP 	Created text_14 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_14', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.0626 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.0651 	EXP 	Created sentence_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sentence_3', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.0679 	EXP 	Created choice1_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice1_3', opacity=1.0, ori=0, pos=array([-0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.0704 	EXP 	Created choice2_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2_3', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.2953 	EXP 	Created VATkeys = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='VATkeys', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255.,   0.,   0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2976 	EXP 	Created textinstruct = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textinstruct', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.5331 	EXP 	Created return_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='return_3', opacity=1.0, ori=0, pos=array([ 0.45, -0.42]), rgb=array([255.,   0.,   0.]), text='Press return to continue', units='height', win=Window(...), wrapWidth=1)
+10.5337 	EXP 	Created text_13 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_13', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.7635 	EXP 	Created hcount = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='hcount', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.7661 	EXP 	Created displayhcount_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='displayhcount_7', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=array([0., 0., 0.]), text='Hostage Count:', units='height', win=Window(...), wrapWidth=1)
+10.7783 	EXP 	Created alien = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='aliens1.png', interpolate=True, mask=None, maskParams=None, name='alien', opacity=1.0, ori=0.0, pos=array([-0.6,  0.4]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+10.7796 	EXP 	Created border_text_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-6.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='border_text_4', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.9, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+10.7853 	EXP 	Created countdowntimer_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='countdowntimer_4', opacity=1.0, ori=0, pos=array([-0.5, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.7899 	EXP 	Created hostage_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='hostage1.png', interpolate=True, mask=None, maskParams=None, name='hostage_4', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+10.7923 	EXP 	Sound sound_4 set volume 1.000
+10.7953 	EXP 	Created releasenotify = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='releasenotify', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([0., 0., 0.]), text='A hostage has been released!', units='height', win=Window(...), wrapWidth=1)
+10.8224 	EXP 	Created instructions_choice1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_choice1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.0543 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+11.0569 	EXP 	Created sentence = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sentence', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.0590 	EXP 	Created choice1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice1', opacity=1.0, ori=0, pos=array([-0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.0612 	EXP 	Created choice2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.0699 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='aliens1.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-0.6,  0.4]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+11.3298 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='break_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.3323 	EXP 	Created breaktimer = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='breaktimer', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.6020 	EXP 	Created instructions_round2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instructions_round2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.8765 	EXP 	Created text_12 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_12', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='', units='height', win=Window(...), wrapWidth=1)
+12.1514 	EXP 	Created green_alien_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='aliens2.png', interpolate=True, mask=None, maskParams=None, name='green_alien_3', opacity=1.0, ori=0.0, pos=array([-0.6,  0.4]), size=array([0.25, 0.25]), texRes=512, units='height', win=Window(...))
+12.1546 	EXP 	Created showtimer_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='showtimer_5', opacity=1.0, ori=0, pos=array([-0.5, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.1584 	EXP 	Created actualhcount_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='actualhcount_3', opacity=1.0, ori=0, pos=array([ 0.6, -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.1616 	EXP 	Created displayhcount_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='displayhcount_6', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=array([0., 0., 0.]), text='Hostage Count:', units='height', win=Window(...), wrapWidth=1)
+12.1626 	EXP 	Created textborder_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-7.0, fillColor=None, fillColorSpace=None, fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='textborder_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.9, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+12.1661 	EXP 	Created hostage_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='hostage1.png', interpolate=True, mask=None, maskParams=None, name='hostage_4', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+12.1683 	EXP 	Sound sound_4 set volume 1.000
+12.1732 	EXP 	Created releasenotify = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='releasenotify', opacity=1.0, ori=0, pos=array([-0.2,  0. ]), rgb=array([0., 0., 0.]), text='A hostage has been released!', units='height', win=Window(...), wrapWidth=1)
+12.1915 	EXP 	Created choice2instructtext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2instructtext', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.4286 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+12.4316 	EXP 	Created sentence_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='sentence_2', opacity=1.0, ori=0, pos=array([0. , 0.3]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.4338 	EXP 	Created choice1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice1_2', opacity=1.0, ori=0, pos=array([-0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.4360 	EXP 	Created choice2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='choice2_2', opacity=1.0, ori=0, pos=array([ 0.2, -0.2]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.4442 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='aliens2.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0.5 , 0.35]), size=array([0.3, 0.3]), texRes=512, units='height', win=Window(...))
+12.6899 	EXP 	Created endexperiment = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='endexperiment', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.7077 	EXP 	participantcode: text = ''
+12.7077 	EXP 	explain: autoDraw = True
+12.7077 	EXP 	participantcode: autoDraw = True
+13.6226 	DATA 	Keypress: return
+13.6384 	DEBUG 	Read Excel file with pandas: instructions.xlsx
+13.6417 	DEBUG 	Clearing unnamed columns from instructions.xlsx
+13.6426 	EXP 	Imported instructions.xlsx as conditions, 19 conditions, 1 params
+13.6430 	EXP 	Created sequence: sequential, trialTypes=19, nReps=1, seed=None
+13.6434 	EXP 	New trial (rep=0, index=0): OrderedDict([('instructionsloop', 'ADULT  RESEARCH  PARTICIPANT  INFORMED  CONSENT  FORM ')])
+13.6644 	EXP 	participantcode: text = 'return'
+13.6644 	EXP 	explain: autoDraw = False
+13.6644 	EXP 	participantcode: autoDraw = False
+13.6644 	EXP 	instructions_text: text = 'ADULT  RESEARCH  PARTICIPANT  INFORMED  CONSENT  FORM '
+13.6644 	EXP 	instructions_text: autoDraw = True
+13.6644 	EXP 	text_2: autoDraw = True
+13.7537 	EXP 	New trial (rep=0, index=1): OrderedDict([('instructionsloop', 'Brief Description: The purpose of this research is to perform an experimental analysis of typed communication. Individuals who volunteer to participate in this study will play a fictional game on their computers in which they attempt to free hostages from fictional aliens by performing an ongoing typing task. We require that any participant be at least 18 years of age to participate.')])
+13.7761 	DATA 	Keypress: return
+13.7875 	EXP 	instructions_text: autoDraw = False
+13.7875 	EXP 	text_2: autoDraw = False
+13.7875 	EXP 	instructions_text: text = 'Brief Description: The purpose of this research is to perform an experimental analysis of typed communication. Individuals who volunteer to participate in this study will play a fictional game on their computers in which they attempt to free hostages from fictional aliens by performing an ongoing typing task. We require that any participant be at least 18 years of age to participate.'
+13.7875 	EXP 	instructions_text: autoDraw = True
+13.7875 	EXP 	text_2: autoDraw = True
+13.9028 	EXP 	New trial (rep=0, index=2): OrderedDict([('instructionsloop', 'Please read the remainder of this form before deciding if you want to volunteer to be in this research study.')])
+13.9116 	DATA 	Keypress: return
+13.9235 	EXP 	instructions_text: autoDraw = False
+13.9235 	EXP 	text_2: autoDraw = False
+13.9235 	EXP 	instructions_text: text = 'Please read the remainder of this form before deciding if you want to volunteer to be in this research study.'
+13.9235 	EXP 	instructions_text: autoDraw = True
+13.9235 	EXP 	text_2: autoDraw = True
+14.0360 	EXP 	New trial (rep=0, index=3): OrderedDict([('instructionsloop', 'Our names are Hannah J. Checkeye, Kathleen E. Daley, Angeline S. Gnanasekaren, Jenna M. Holland, and Kaitlyn R. Ownbey; we are undergraduate psychology researchers at the University of Mary Washington studying under Dr. W. David Stahlman. We are seeking your consent to participate in this research study. Involvement in the study is voluntary, so you may choose to participate or not. The information below explains the study in detail. ')])
+14.0607 	DATA 	Keypress: return
+14.0704 	EXP 	instructions_text: autoDraw = False
+14.0704 	EXP 	text_2: autoDraw = False
+14.0704 	EXP 	instructions_text: text = 'Our names are Hannah J. Checkeye, Kathleen E. Daley, Angeline S. Gnanasekaren, Jenna M. Holland, and Kaitlyn R. Ownbey; we are undergraduate psychology researchers at the University of Mary Washington studying under Dr. W. David Stahlman. We are seeking your consent to participate in this research study. Involvement in the study is voluntary, so you may choose to participate or not. The information below explains the study in detail. '
+14.0704 	EXP 	instructions_text: autoDraw = True
+14.0704 	EXP 	text_2: autoDraw = True
+14.1692 	EXP 	New trial (rep=0, index=4): OrderedDict([('instructionsloop', 'Details of Participant Involvement: We are interested in learning more about typed communication. If you agree to participate, you will be asked to complete demographic questions, a typing game, choice tasks, and a post-game survey.')])
+14.1832 	DATA 	Keypress: return
+14.1932 	EXP 	instructions_text: autoDraw = False
+14.1932 	EXP 	text_2: autoDraw = False
+14.1932 	EXP 	instructions_text: text = 'Details of Participant Involvement: We are interested in learning more about typed communication. If you agree to participate, you will be asked to complete demographic questions, a typing game, choice tasks, and a post-game survey.'
+14.1932 	EXP 	instructions_text: autoDraw = True
+14.1932 	EXP 	text_2: autoDraw = True
+14.3021 	EXP 	New trial (rep=0, index=5): OrderedDict([('instructionsloop', 'The typing game will consist of two nonconsecutive 10-minute strings of writing. Upon completion of each writing session of the game, you will be asked to perform a choice task. This study will take approximately thirty minutes to complete. If you do participate, a benefit of this study is that you will contribute towards the scientific community’s understanding of verbal behavior. ')])
+14.3233 	DATA 	Keypress: return
+14.3323 	EXP 	instructions_text: autoDraw = False
+14.3323 	EXP 	text_2: autoDraw = False
+14.3323 	EXP 	instructions_text: text = 'The typing game will consist of two nonconsecutive 10-minute strings of writing. Upon completion of each writing session of the game, you will be asked to perform a choice task. This study will take approximately thirty minutes to complete. If you do participate, a benefit of this study is that you will contribute towards the scientific community’s understanding of verbal behavior. '
+14.3323 	EXP 	instructions_text: autoDraw = True
+14.3323 	EXP 	text_2: autoDraw = True
+14.4352 	EXP 	New trial (rep=0, index=6): OrderedDict([('instructionsloop', 'Privacy and Confidentiality: You can complete this survey at any time and in any location you feel comfortable. All information about participants will be kept anonymous. We are not collecting names, any identifying information, or IP addresses. A single copy of your data will be stored on Dr. Stahlman’s password protected computer. All other copies will be deleted.')])
+14.4546 	DATA 	Keypress: return
+14.4637 	EXP 	instructions_text: autoDraw = False
+14.4637 	EXP 	text_2: autoDraw = False
+14.4637 	EXP 	instructions_text: text = 'Privacy and Confidentiality: You can complete this survey at any time and in any location you feel comfortable. All information about participants will be kept anonymous. We are not collecting names, any identifying information, or IP addresses. A single copy of your data will be stored on Dr. Stahlman’s password protected computer. All other copies will be deleted.'
+14.4637 	EXP 	instructions_text: autoDraw = True
+14.4637 	EXP 	text_2: autoDraw = True
+14.5688 	EXP 	New trial (rep=0, index=7): OrderedDict([('instructionsloop', 'Risks and Benefits of Participation: The risks to participants in this study may include mild fatigue, discomfort from typing, and eye strain. The game’s narrative includes brief descriptions of alien abduction and a hostage scenario, so if either of these topics is personally upsetting to you please consider declining to participate. ')])
+14.5871 	DATA 	Keypress: return
+14.5960 	EXP 	instructions_text: autoDraw = False
+14.5960 	EXP 	text_2: autoDraw = False
+14.5960 	EXP 	instructions_text: text = 'Risks and Benefits of Participation: The risks to participants in this study may include mild fatigue, discomfort from typing, and eye strain. The game’s narrative includes brief descriptions of alien abduction and a hostage scenario, so if either of these topics is personally upsetting to you please consider declining to participate. '
+14.5960 	EXP 	instructions_text: autoDraw = True
+14.5960 	EXP 	text_2: autoDraw = True
+14.7022 	EXP 	New trial (rep=0, index=8): OrderedDict([('instructionsloop', 'These risks will be minimized by our experiment functioning like a game—the scenario depicted is highly improbable, even cartoonish, and the gameplay is mild. As a result, participants will hopefully find the tasks in the experiment enjoyable and engaging. To minimize typing discomfort, intermittent association tasks will be used to provide a short break from the typing tasks in the experiment. ')])
+14.7238 	DATA 	Keypress: return
+14.7328 	EXP 	instructions_text: autoDraw = False
+14.7328 	EXP 	text_2: autoDraw = False
+14.7328 	EXP 	instructions_text: text = 'These risks will be minimized by our experiment functioning like a game—the scenario depicted is highly improbable, even cartoonish, and the gameplay is mild. As a result, participants will hopefully find the tasks in the experiment enjoyable and engaging. To minimize typing discomfort, intermittent association tasks will be used to provide a short break from the typing tasks in the experiment. '
+14.7328 	EXP 	instructions_text: autoDraw = True
+14.7328 	EXP 	text_2: autoDraw = True
+14.8358 	EXP 	New trial (rep=0, index=9): OrderedDict([('instructionsloop', 'Additionally, participants may leave the experiment at any time. Participation in this study will invoke indirect benefits, specifically for the scientific community at large. The participant results from this study will ensure a better understanding of verbal behavior.')])
+14.8540 	DATA 	Keypress: return
+14.8626 	EXP 	instructions_text: autoDraw = False
+14.8626 	EXP 	text_2: autoDraw = False
+14.8626 	EXP 	instructions_text: text = 'Additionally, participants may leave the experiment at any time. Participation in this study will invoke indirect benefits, specifically for the scientific community at large. The participant results from this study will ensure a better understanding of verbal behavior.'
+14.8626 	EXP 	instructions_text: autoDraw = True
+14.8626 	EXP 	text_2: autoDraw = True
+14.9858 	EXP 	New trial (rep=0, index=10): OrderedDict([('instructionsloop', 'Participant Rights: If you do not want to be in this study, there will be no penalties or loss of benefits to which you are entitled. If you volunteer to be in this study and later change your mind, you have the right to withdraw your data.')])
+15.0024 	DATA 	Keypress: return
+15.0109 	EXP 	instructions_text: autoDraw = False
+15.0109 	EXP 	text_2: autoDraw = False
+15.0109 	EXP 	instructions_text: text = 'Participant Rights: If you do not want to be in this study, there will be no penalties or loss of benefits to which you are entitled. If you volunteer to be in this study and later change your mind, you have the right to withdraw your data.'
+15.0109 	EXP 	instructions_text: autoDraw = True
+15.0109 	EXP 	text_2: autoDraw = True
+15.1353 	EXP 	New trial (rep=0, index=11): OrderedDict([('instructionsloop', 'Choosing to leave the study before its completion will imply withdrawal. If you complete the study and decide that you wish to withdrawal, you may indicate this on debriefing form. In both scenarios, your data will be discarded. As data collection is anonymous, this will be your only opportunity to withdraw your data.')])
+15.1529 	DATA 	Keypress: return
+15.1618 	EXP 	instructions_text: autoDraw = False
+15.1618 	EXP 	text_2: autoDraw = False
+15.1618 	EXP 	instructions_text: text = 'Choosing to leave the study before its completion will imply withdrawal. If you complete the study and decide that you wish to withdrawal, you may indicate this on debriefing form. In both scenarios, your data will be discarded. As data collection is anonymous, this will be your only opportunity to withdraw your data.'
+15.1618 	EXP 	instructions_text: autoDraw = True
+15.1618 	EXP 	text_2: autoDraw = True
+15.2688 	EXP 	New trial (rep=0, index=12): OrderedDict([('instructionsloop', 'As a voluntary participant in this research, you have the right to refuse to perform any activities and answer any questions that we ask of you. This research has been approved by the University of Mary Washington Institutional Review Board, a committee responsible for ensuring that the safety and rights of research participants are protected. ')])
+15.2898 	DATA 	Keypress: return
+15.2988 	EXP 	instructions_text: autoDraw = False
+15.2988 	EXP 	text_2: autoDraw = False
+15.2988 	EXP 	instructions_text: text = 'As a voluntary participant in this research, you have the right to refuse to perform any activities and answer any questions that we ask of you. This research has been approved by the University of Mary Washington Institutional Review Board, a committee responsible for ensuring that the safety and rights of research participants are protected. '
+15.2988 	EXP 	instructions_text: autoDraw = True
+15.2988 	EXP 	text_2: autoDraw = True
+15.4033 	EXP 	New trial (rep=0, index=13): OrderedDict([('instructionsloop', 'For information about your rights as a research participant, contact the IRB chair, Dr. Rosalyn Cooperman (rcooperm@umw.edu). For more information about this research before, during or after your participation, please contact Jenna M. Holland (jholland@mail.umw.edu). To report any unanticipated problems relating to the research that you experience during or following your participation, contact my university supervisor, Dr. W. David Stahlman (wdstahlm@umw.edu). We will provide this information again at debriefing.')])
+15.4354 	DATA 	Keypress: return
+15.4459 	EXP 	instructions_text: autoDraw = False
+15.4459 	EXP 	text_2: autoDraw = False
+15.4459 	EXP 	instructions_text: text = 'For information about your rights as a research participant, contact the IRB chair, Dr. Rosalyn Cooperman (rcooperm@umw.edu). For more information about this research before, during or after your participation, please contact Jenna M. Holland (jholland@mail.umw.edu). To report any unanticipated problems relating to the research that you experience during or following your participation, contact my university supervisor, Dr. W. David Stahlman (wdstahlm@umw.edu). We will provide this information again at debriefing.'
+15.4459 	EXP 	instructions_text: autoDraw = True
+15.4459 	EXP 	text_2: autoDraw = True
+15.5526 	EXP 	New trial (rep=0, index=14): OrderedDict([('instructionsloop', 'Consent: By advancing to the next page of the study, you are agreeing that you have read all of the information on this page, and all of your questions and concerns about the research described above have been addressed. You also certify that you choose, voluntarily, to participate in this research project. You also are certifying that you are at least 18 years of age.')])
+15.5714 	DATA 	Keypress: return
+15.5832 	EXP 	instructions_text: autoDraw = False
+15.5832 	EXP 	text_2: autoDraw = False
+15.5832 	EXP 	instructions_text: text = 'Consent: By advancing to the next page of the study, you are agreeing that you have read all of the information on this page, and all of your questions and concerns about the research described above have been addressed. You also certify that you choose, voluntarily, to participate in this research project. You also are certifying that you are at least 18 years of age.'
+15.5832 	EXP 	instructions_text: autoDraw = True
+15.5832 	EXP 	text_2: autoDraw = True
+15.6857 	EXP 	New trial (rep=0, index=15): OrderedDict([('instructionsloop', 'BEGIN EXPERIMENT')])
+15.6924 	DATA 	Keypress: return
+15.7036 	EXP 	instructions_text: autoDraw = False
+15.7036 	EXP 	text_2: autoDraw = False
+15.7036 	EXP 	instructions_text: text = 'BEGIN EXPERIMENT'
+15.7036 	EXP 	instructions_text: autoDraw = True
+15.7036 	EXP 	text_2: autoDraw = True
+15.8351 	EXP 	New trial (rep=0, index=16): OrderedDict([('instructionsloop', 'ATTENTION: The first ever case of alien abduction has been verified in the United States. Two alien species, the Qiczox and Kivix, have come down from planet Nunus, and they have taken several humans around the country as hostages.\xa0 We are counting on you to release the hostages.\xa0')])
+15.8536 	DATA 	Keypress: return
+15.8619 	EXP 	instructions_text: autoDraw = False
+15.8619 	EXP 	text_2: autoDraw = False
+15.8619 	EXP 	instructions_text: text = 'ATTENTION: The first ever case of alien abduction has been verified in the United States. Two alien species, the Qiczox and Kivix, have come down from planet Nunus, and they have taken several humans around the country as hostages.\xa0 We are counting on you to release the hostages.\xa0'
+15.8619 	EXP 	instructions_text: autoDraw = True
+15.8619 	EXP 	text_2: autoDraw = True
+16.0024 	EXP 	New trial (rep=0, index=17): OrderedDict([('instructionsloop', 'NASA has appointed you as the United States Interstellar Messenger and Decoder. With this job title, you must communicate with the Qiczox and Kivix commanders in order to release the hostages. You will need to quickly and continuously type messages to the commanders. When you decide a message is complete, hit the return key to send it, and continue on with your next message. Remember: you cannot expect Qiczox and Kivix to think like you do.\xa0\xa0')])
+16.0254 	DATA 	Keypress: return
+16.0345 	EXP 	instructions_text: autoDraw = False
+16.0345 	EXP 	text_2: autoDraw = False
+16.0345 	EXP 	instructions_text: text = 'NASA has appointed you as the United States Interstellar Messenger and Decoder. With this job title, you must communicate with the Qiczox and Kivix commanders in order to release the hostages. You will need to quickly and continuously type messages to the commanders. When you decide a message is complete, hit the return key to send it, and continue on with your next message. Remember: you cannot expect Qiczox and Kivix to think like you do.\xa0\xa0'
+16.0345 	EXP 	instructions_text: autoDraw = True
+16.0345 	EXP 	text_2: autoDraw = True
+16.1687 	EXP 	New trial (rep=0, index=18): OrderedDict([('instructionsloop', 'You should use a computer or tablet with a keyboard to complete this task. When you are ready to begin your mission, press the return key. Good luck.\xa0')])
+16.1821 	DATA 	Keypress: return
+16.1905 	EXP 	instructions_text: autoDraw = False
+16.1905 	EXP 	text_2: autoDraw = False
+16.1905 	EXP 	instructions_text: text = 'You should use a computer or tablet with a keyboard to complete this task. When you are ready to begin your mission, press the return key. Good luck.\xa0'
+16.1905 	EXP 	instructions_text: autoDraw = True
+16.1905 	EXP 	text_2: autoDraw = True
+16.3566 	DEBUG 	Read Excel file with pandas: instructions_practiceround.xlsx
+16.3576 	DEBUG 	Clearing unnamed columns from instructions_practiceround.xlsx
+16.3578 	EXP 	Imported instructions_practiceround.xlsx as conditions, 3 conditions, 1 params
+16.3580 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+16.3583 	EXP 	New trial (rep=0, index=0): OrderedDict([('practice_instructions', 'PRACTICE ROUND')])
+16.3654 	DATA 	Keypress: return
+16.3729 	EXP 	instructions_text: autoDraw = False
+16.3729 	EXP 	text_2: autoDraw = False
+16.3729 	EXP 	practiceinstruct: text = 'PRACTICE ROUND'
+16.3729 	EXP 	practiceinstruct: autoDraw = True
+16.3729 	EXP 	return_2: autoDraw = True
+16.5189 	EXP 	New trial (rep=0, index=1): OrderedDict([('practice_instructions', 'To make sure you are able to maintain continuous communication with the alien commanders, we have arranged a practice communication task with one of our communication officers. This officer will mimic the communication of the alien species. You will need to communicate continuously with the officer by typing on your keyboard. They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. ')])
+16.5469 	DATA 	Keypress: return
+16.5562 	EXP 	practiceinstruct: autoDraw = False
+16.5562 	EXP 	return_2: autoDraw = False
+16.5562 	EXP 	practiceinstruct: text = 'To make sure you are able to maintain continuous communication with the alien commanders, we have arranged a practice communication task with one of our communication officers. This officer will mimic the communication of the alien species. You will need to communicate continuously with the officer by typing on your keyboard. They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. '
+16.5562 	EXP 	practiceinstruct: autoDraw = True
+16.5562 	EXP 	return_2: autoDraw = True
+16.6854 	EXP 	New trial (rep=0, index=2): OrderedDict([('practice_instructions', 'Once you decide that your message is complete, hit the return key to begin a new message. While you are communicating with the officer, a sample fragmented message will be sent to you. You must decode that message, and continue communicating. To decode the message, choose which word best completes the phrase in the middle of the screen. The message will only be visible for a few seconds, so work quickly. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. When you are ready to begin alien communication, press the return key')])
+16.7136 	DATA 	Keypress: return
+16.7228 	EXP 	practiceinstruct: autoDraw = False
+16.7228 	EXP 	return_2: autoDraw = False
+16.7228 	EXP 	practiceinstruct: text = 'Once you decide that your message is complete, hit the return key to begin a new message. While you are communicating with the officer, a sample fragmented message will be sent to you. You must decode that message, and continue communicating. To decode the message, choose which word best completes the phrase in the middle of the screen. The message will only be visible for a few seconds, so work quickly. Remember that our officer will be communicating like the aliens, who do not think in the same way you do. When you are ready to begin alien communication, press the return key'
+16.7228 	EXP 	practiceinstruct: autoDraw = True
+16.7228 	EXP 	return_2: autoDraw = True
+16.9691 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+16.9694 	EXP 	New trial (rep=0, index=0): None
+16.9722 	DATA 	Keypress: return
+16.9919 	EXP 	practiceinstruct: autoDraw = False
+16.9919 	EXP 	return_2: autoDraw = False
+16.9919 	EXP 	hcountprac: text = 0
+16.9919 	EXP 	input_text: text = ''
+16.9919 	EXP 	input_text: autoDraw = True
+16.9919 	EXP 	hcountprac: autoDraw = True
+16.9919 	EXP 	displayhcount: autoDraw = True
+16.9919 	EXP 	text_border: autoDraw = True
+17.1518 	DATA 	Keypress: return
+17.1540 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+17.1542 	EXP 	New trial (rep=1, index=0): None
+17.1688 	EXP 	input_text: autoDraw = False
+17.1688 	EXP 	hcountprac: autoDraw = False
+17.1688 	EXP 	displayhcount: autoDraw = False
+17.1688 	EXP 	text_border: autoDraw = False
+17.1688 	EXP 	hcountprac: text = 0
+17.1688 	EXP 	input_text: text = ''
+17.1688 	EXP 	input_text: autoDraw = True
+17.1688 	EXP 	hcountprac: autoDraw = True
+17.1688 	EXP 	displayhcount: autoDraw = True
+17.1688 	EXP 	text_border: autoDraw = True
+17.6522 	DATA 	Keypress: return
+17.6537 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+17.6539 	EXP 	New trial (rep=2, index=0): None
+17.6686 	EXP 	input_text: autoDraw = False
+17.6686 	EXP 	hcountprac: autoDraw = False
+17.6686 	EXP 	displayhcount: autoDraw = False
+17.6686 	EXP 	text_border: autoDraw = False
+17.6686 	EXP 	hcountprac: text = 0
+17.6686 	EXP 	input_text: text = ''
+17.6686 	EXP 	input_text: autoDraw = True
+17.6686 	EXP 	hcountprac: autoDraw = True
+17.6686 	EXP 	displayhcount: autoDraw = True
+17.6686 	EXP 	text_border: autoDraw = True
+17.8020 	DATA 	Keypress: return
+17.8036 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+17.8038 	EXP 	New trial (rep=3, index=0): None
+17.8181 	EXP 	input_text: autoDraw = False
+17.8181 	EXP 	hcountprac: autoDraw = False
+17.8181 	EXP 	displayhcount: autoDraw = False
+17.8181 	EXP 	text_border: autoDraw = False
+17.8181 	EXP 	hcountprac: text = 0
+17.8181 	EXP 	input_text: text = ''
+17.8181 	EXP 	input_text: autoDraw = True
+17.8181 	EXP 	hcountprac: autoDraw = True
+17.8181 	EXP 	displayhcount: autoDraw = True
+17.8181 	EXP 	text_border: autoDraw = True
+17.9525 	DATA 	Keypress: return
+17.9539 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+17.9674 	EXP 	input_text: autoDraw = False
+17.9674 	EXP 	hcountprac: autoDraw = False
+17.9674 	EXP 	displayhcount: autoDraw = False
+17.9674 	EXP 	text_border: autoDraw = False
+17.9674 	EXP 	text_14: autoDraw = True
+18.1566 	DEBUG 	Read Excel file with pandas: practicevat.xlsx
+18.1576 	DEBUG 	Clearing unnamed columns from practicevat.xlsx
+18.1580 	EXP 	Imported practicevat.xlsx as conditions, 4 conditions, 3 params
+18.1585 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+18.1587 	EXP 	New trial (rep=0, index=0): OrderedDict([('sentences', 'Catch ____ tree back'), ('choice_a', 'screen'), ('choice_b', 'drink')])
+18.1601 	DATA 	Keypress: return
+18.1711 	EXP 	text_14: autoDraw = False
+18.1711 	EXP 	text_3: autoDraw = True
+18.4699 	DATA 	Keypress: return
+18.6908 	EXP 	text_3: autoDraw = False
+18.6908 	EXP 	sentence_3: text = 'Catch ____ tree back'
+18.6908 	EXP 	choice1_3: text = 'screen'
+18.6908 	EXP 	choice2_3: text = 'drink'
+18.6908 	EXP 	sentence_3: autoDraw = True
+18.6908 	EXP 	choice1_3: autoDraw = True
+18.6908 	EXP 	choice2_3: autoDraw = True
+18.6908 	EXP 	VATkeys: autoDraw = True
+19.4194 	EXP 	New trial (rep=0, index=1): OrderedDict([('sentences', '_____ school come pole'), ('choice_a', 'kick'), ('choice_b', 'water')])
+19.4316 	DATA 	Keypress: left
+19.4398 	EXP 	sentence_3: autoDraw = False
+19.4398 	EXP 	choice1_3: autoDraw = False
+19.4398 	EXP 	choice2_3: autoDraw = False
+19.4398 	EXP 	VATkeys: autoDraw = False
+19.4398 	EXP 	text_3: autoDraw = True
+19.9543 	EXP 	text_3: autoDraw = False
+19.9543 	EXP 	sentence_3: text = '_____ school come pole'
+19.9543 	EXP 	choice1_3: text = 'kick'
+19.9543 	EXP 	choice2_3: text = 'water'
+19.9543 	EXP 	sentence_3: autoDraw = True
+19.9543 	EXP 	choice1_3: autoDraw = True
+19.9543 	EXP 	choice2_3: autoDraw = True
+19.9543 	EXP 	VATkeys: autoDraw = True
+20.0022 	EXP 	New trial (rep=0, index=2): OrderedDict([('sentences', 'Stars blow meet ____'), ('choice_a', 'castle'), ('choice_b', 'field')])
+20.0039 	DATA 	Keypress: left
+20.0176 	EXP 	sentence_3: autoDraw = False
+20.0176 	EXP 	choice1_3: autoDraw = False
+20.0176 	EXP 	choice2_3: autoDraw = False
+20.0176 	EXP 	VATkeys: autoDraw = False
+20.0176 	EXP 	text_3: autoDraw = True
+20.5219 	EXP 	text_3: autoDraw = False
+20.5219 	EXP 	text_3: autoDraw = False
+20.5219 	EXP 	sentence_3: text = 'Stars blow meet ____'
+20.5219 	EXP 	choice1_3: text = 'castle'
+20.5219 	EXP 	choice2_3: text = 'field'
+20.5219 	EXP 	sentence_3: autoDraw = True
+20.5219 	EXP 	choice1_3: autoDraw = True
+20.5219 	EXP 	choice2_3: autoDraw = True
+20.5219 	EXP 	VATkeys: autoDraw = True
+20.5869 	EXP 	New trial (rep=0, index=3): OrderedDict([('sentences', 'Birds run ____ fault'), ('choice_a', 'green'), ('choice_b', 'disgusting')])
+20.5882 	DATA 	Keypress: left
+20.6012 	EXP 	sentence_3: autoDraw = False
+20.6012 	EXP 	choice1_3: autoDraw = False
+20.6012 	EXP 	choice2_3: autoDraw = False
+20.6012 	EXP 	VATkeys: autoDraw = False
+20.6012 	EXP 	text_3: autoDraw = True
+21.1058 	EXP 	text_3: autoDraw = False
+21.1058 	EXP 	text_3: autoDraw = False
+21.1058 	EXP 	sentence_3: text = 'Birds run ____ fault'
+21.1058 	EXP 	choice1_3: text = 'green'
+21.1058 	EXP 	choice2_3: text = 'disgusting'
+21.1058 	EXP 	sentence_3: autoDraw = True
+21.1058 	EXP 	choice1_3: autoDraw = True
+21.1058 	EXP 	choice2_3: autoDraw = True
+21.1058 	EXP 	VATkeys: autoDraw = True
+21.1757 	DEBUG 	Read Excel file with pandas: round1_instructions.xlsx
+21.1767 	DEBUG 	Clearing unnamed columns from round1_instructions.xlsx
+21.1770 	EXP 	Imported round1_instructions.xlsx as conditions, 2 conditions, 1 params
+21.1773 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+21.1781 	EXP 	New trial (rep=0, index=0): OrderedDict([('instruct_1', 'Now that you have completed the practice task, you are ready to begin official communication with the Qiczox and Kivix commanders as the United States Interstellar Messenger and Decoder. You will need to communicate with the commanders by typing on your keyboard. Your messages need to be rapid, complete, and engaging. ')])
+21.1940 	DATA 	Keypress: left
+21.2026 	EXP 	sentence_3: autoDraw = False
+21.2026 	EXP 	choice1_3: autoDraw = False
+21.2026 	EXP 	choice2_3: autoDraw = False
+21.2026 	EXP 	VATkeys: autoDraw = False
+21.2026 	EXP 	textinstruct: text = 'Now that you have completed the practice task, you are ready to begin official communication with the Qiczox and Kivix commanders as the United States Interstellar Messenger and Decoder. You will need to communicate with the commanders by typing on your keyboard. Your messages need to be rapid, complete, and engaging. '
+21.2026 	EXP 	textinstruct: autoDraw = True
+21.2026 	EXP 	return_3: autoDraw = True
+21.7043 	EXP 	New trial (rep=0, index=1): OrderedDict([('instruct_1', 'They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Once you decide that your message is complete, hit the return key to send it and then begin a new message. Remember that these are alien species, so they do not think in the same way you do. When you are ready to begin alien communication, press the return key.\xa0')])
+21.7221 	DATA 	Keypress: return
+21.7338 	EXP 	textinstruct: autoDraw = False
+21.7338 	EXP 	return_3: autoDraw = False
+21.7338 	EXP 	textinstruct: text = 'They should only include letter and punctuation keys, with no special characters, number keys, or function keys. Once you decide that your message is complete, hit the return key to send it and then begin a new message. Remember that these are alien species, so they do not think in the same way you do. When you are ready to begin alien communication, press the return key.\xa0'
+21.7338 	EXP 	textinstruct: autoDraw = True
+21.7338 	EXP 	return_3: autoDraw = True
+22.0702 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1000, seed=None
+22.0761 	EXP 	New trial (rep=0, index=0): None
+22.0779 	DATA 	Keypress: return
+22.7562 	EXP 	window1: mouseVisible = True
+22.7749 	DEBUG 	Saving data for VERSION5 ExperimentHandler
+22.7768 	INFO 	saved data to /Users/hannah_checkeye/Desktop/UMW/Spring 2021/Verbal Shaping Experiment/Version 5/data/_VERSION5_2021_Apr_05_1230.psydat
+22.7800 	INFO 	saved data to '/Users/hannah_checkeye/Desktop/UMW/Spring 2021/Verbal Shaping Experiment/Version 5/data/_VERSION5_2021_Apr_05_1230.csv'
